@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EFAT,OAAO;CEIjB;;AALD,AAEQ,QAFA,CAEA,cAAc,CAAA;EACV,KAAK,EFHL,OAAO;CEIV",
+    "sources": [
+        "style.scss",
+        "utils/_variables.scss",
+        "base/_animations.scss",
+        "layout/_header.scss",
+        "layout/_main.scss",
+        "layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
