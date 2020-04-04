@@ -1,8 +1,19 @@
-_header.scss
 
-.mouloud{
+
+header{
     background-color: $vert-dur;
-        .mouloud__logo{
-            color: $john-duff;
-        }
+    line-height: 100px;
+    text-align: center;
+    h1{
+        color: $john-duff;
+        margin-top: 0;
+        font-family: 'Monserrat', sans-serif;
+        
+    }
+}
+
+header{
+    a{
+        text-decoration: none;
+    }
 }
