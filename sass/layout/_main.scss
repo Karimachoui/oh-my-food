@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.carte{
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    width: 90%;
+    height: 300px;
+    box-shadow: $chat-dos;
+    &__lien{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+}
