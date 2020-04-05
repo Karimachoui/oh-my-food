@@ -1,3 +1,21 @@
+.prochainement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.prochainement button {
+  margin: auto;
+  background-color: #579c87;
+  color: #fcc42d;
+  width: 60%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 6px;
+}
+
 body {
   margin: 0;
   display: -webkit-box;
@@ -47,8 +65,8 @@ main {
   margin-top: 10%;
   width: 300px;
   height: 300px;
-  -webkit-box-shadow: 0 0 10px 0 rgba(152, 153, 151, 0.6);
-          box-shadow: 0 0 10px 0 rgba(152, 153, 151, 0.6);
+  -webkit-box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.8);
+          box-shadow: 0 0 10px 0 rgba(150, 150, 150, 0.8);
 }
 
 .card__link {
@@ -80,6 +98,6 @@ main {
 
 .card--four {
   background-color: #faf9f8;
-  color: #a1c181;
+  margin-bottom: 10%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,14 @@
 .prochainement{
     display: flex;
-    width: 200px;
-        .prochainement__button{
+    width: 90%;
+    margin: auto;
+        button{
             margin: auto;
+            background-color: #579c87;
+            color: #fcc42d;
+            width: 60%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            border-radius: 6px;
         }
 }
