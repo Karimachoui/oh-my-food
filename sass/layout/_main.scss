@@ -18,3 +18,20 @@ main{
         text-decoration: none;
     }    
 }
+
+.card--one{
+    background-color: $color-menu-1;
+}
+
+.card--two{
+    background-color: $color-menu-2;
+}
+
+.card--three{
+    background-color: $color-menu-3-4;
+}
+
+.card--four{
+    background-color: $color-menu-3-4;
+    color: $color-menu-4-text;
+}

@@ -61,4 +61,21 @@ main {
           align-items: center;
   text-decoration: none;
 }
+
+.card--one {
+  background-color: #fadfda;
+}
+
+.card--two {
+  background-color: #fef4f8;
+}
+
+.card--three {
+  background-color: #faf9f8;
+}
+
+.card--four {
+  background-color: #faf9f8;
+  color: #a1c181;
+}
 /*# sourceMappingURL=style.css.map */
