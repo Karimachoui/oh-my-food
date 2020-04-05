@@ -1,9 +1,11 @@
 .header__heading{
+    display: flex;
     background-color: $color-header-footer;
     height: 68px;
     .header__logo{
         color: $color-header-text;
-        margin-top: 4%;
+        margin: auto;
+        margin-top: 10px;
         font-family: 'Monserrat', sans-serif;
         text-align: center;
     }

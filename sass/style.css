@@ -14,13 +14,17 @@ body a {
 }
 
 .header__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #579c87;
   height: 68px;
 }
 
 .header__heading .header__logo {
   color: #fcc42d;
-  margin-top: 4%;
+  margin: auto;
+  margin-top: 10px;
   font-family: 'Monserrat', sans-serif;
   text-align: center;
 }
