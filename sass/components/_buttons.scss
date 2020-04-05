@@ -1,7 +1,7 @@
 .prochainement{
     display: flex;
-    justify-content: center;
-        &__button{
+    width: 200px;
+        .prochainement__button{
             margin: auto;
         }
 }
