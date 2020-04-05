@@ -3,14 +3,14 @@ main{
     flex-direction: column;
 }
 
-.carte{
+.card{
     display: flex;
     margin: auto;
     margin-top: 10%;
     width: 300px;
     height: 300px;
     box-shadow: $chat-dos;
-    &__lien{
+    &__link{
         margin: auto;
         display: flex;
         flex-direction: column;

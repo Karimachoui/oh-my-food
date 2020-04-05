@@ -9,20 +9,20 @@ body {
           flex-direction: column;
 }
 
-header {
-  background-color: #579c87;
-  line-height: 100px;
-  text-align: center;
-}
-
-header h1 {
-  color: #fcc42d;
-  margin-top: 0;
-  font-family: 'Monserrat', sans-serif;
-}
-
-header a {
+body a {
   text-decoration: none;
+}
+
+.header__heading {
+  background-color: #579c87;
+  height: 68px;
+}
+
+.header__heading .header__logo {
+  color: #fcc42d;
+  margin-top: 4%;
+  font-family: 'Monserrat', sans-serif;
+  text-align: center;
 }
 
 main {
@@ -35,7 +35,7 @@ main {
           flex-direction: column;
 }
 
-.carte {
+.card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,7 +47,7 @@ main {
           box-shadow: 0 0 10px 0 rgba(152, 153, 151, 0.6);
 }
 
-.carte__lien {
+.card__link {
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;

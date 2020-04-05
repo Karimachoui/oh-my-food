@@ -1,16 +1,11 @@
-header{
-    background-color: $vert-dur;
-    line-height: 100px;
-    text-align: center;
-    h1{
-        color: $john-duff;
-        margin-top: 0;
+.header__heading{
+    background-color: $color-header-footer;
+    height: 68px;
+    .header__logo{
+        color: $color-header-text;
+        margin-top: 4%;
         font-family: 'Monserrat', sans-serif;
+        text-align: center;
     }
 }
 
-header{
-    a{
-        text-decoration: none;
-    }
-}
