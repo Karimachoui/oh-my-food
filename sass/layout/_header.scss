@@ -2,11 +2,12 @@
     display: flex;
     background-color: #579c87;
     height: 68px;
+    border-bottom: solid 1px #a1c181;
     .header__link{
         margin: auto;
         .header__logo{
             color: #fcc42d;
-            margin-top: 10px;
+            margin-top: 15px;
             font-family: 'Monserrat', sans-serif;
             text-align: center;
         }

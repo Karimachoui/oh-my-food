@@ -39,6 +39,7 @@ body a {
   display: flex;
   background-color: #579c87;
   height: 68px;
+  border-bottom: solid 1px #a1c181;
 }
 
 .header__heading .header__link {
@@ -47,7 +48,7 @@ body a {
 
 .header__heading .header__link .header__logo {
   color: #fcc42d;
-  margin-top: 10px;
+  margin-top: 15px;
   font-family: 'Monserrat', sans-serif;
   text-align: center;
 }
@@ -114,6 +115,7 @@ main {
   position: fixed;
   bottom: 0;
   height: 40px;
+  border-top: solid 1px #a1c181;
 }
 
 .foo .foo__link--left, .foo .foo__link--right {
