@@ -1,4 +1,4 @@
-.prochainement {
+#prochainement {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,7 +6,7 @@
   margin: auto;
 }
 
-.prochainement button {
+#prochainement button {
   margin: auto;
   background-color: #579c87;
   color: #fcc42d;
