@@ -2,12 +2,13 @@
     display: flex;
     background-color: #579c87;
     height: 68px;
-    .header__logo{
-        color: #fcc42d;
+    .header__link{
         margin: auto;
-        margin-top: 10px;
-        font-family: 'Monserrat', sans-serif;
-        text-align: center;
+        .header__logo{
+            color: #fcc42d;
+            margin-top: 10px;
+            font-family: 'Monserrat', sans-serif;
+            text-align: center;
+        }
     }
 }
-

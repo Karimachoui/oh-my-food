@@ -41,9 +41,12 @@ body a {
   height: 68px;
 }
 
-.header__heading .header__logo {
-  color: #fcc42d;
+.header__heading .header__link {
   margin: auto;
+}
+
+.header__heading .header__link .header__logo {
+  color: #fcc42d;
   margin-top: 10px;
   font-family: 'Monserrat', sans-serif;
   text-align: center;
