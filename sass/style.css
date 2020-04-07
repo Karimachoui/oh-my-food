@@ -94,6 +94,10 @@ main {
   background-color: #fadfda;
 }
 
+.card__title--one {
+  font-family: 'Devonshire', sans-serif;
+}
+
 .card--two {
   background-color: #fef4f8;
 }
