@@ -108,6 +108,19 @@ main {
   background-color: #fef4f8;
 }
 
+.card--two .card__title {
+  font-family: 'Croissant One', sans-serif;
+  background: -webkit-gradient(linear, left top, right top, from(#c46b17), to(#684eb8));
+  background: linear-gradient(to right, #c46b17, #684eb8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card--two .card__subtitle {
+  color: #c46b17;
+  font-size: 30px;
+}
+
 .card--three {
   background-color: #faf9f8;
 }
@@ -115,6 +128,14 @@ main {
 .card--four {
   background-color: #faf9f8;
   margin-bottom: 10%;
+}
+
+.card--four .card__title {
+  font-family: 'Kaushan Script', sans-serif;
+}
+
+.card--four .card__title .card__subtitle {
+  font-family: 'Segoe Print', sans-serif;
 }
 
 .foo {
