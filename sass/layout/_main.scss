@@ -21,10 +21,14 @@ main{
 
 .card--one{
     background-color: #fadfda;
-}
-
-.card__title--one{
-    font-family: 'Devonshire', sans-serif;
+    .card__title{
+        font-family: 'Devonshire', sans-serif;
+        color: rgba(51, 18, 18, 0.925);
+        font-weight: normal;}
+        .card__subtitle{
+            color: rgba(51, 18, 18, 0.925);
+        }
+    
 }
 
 .card--two{

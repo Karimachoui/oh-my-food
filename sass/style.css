@@ -94,8 +94,14 @@ main {
   background-color: #fadfda;
 }
 
-.card__title--one {
+.card--one .card__title {
   font-family: 'Devonshire', sans-serif;
+  color: rgba(51, 18, 18, 0.925);
+  font-weight: normal;
+}
+
+.card--one .card__subtitle {
+  color: rgba(51, 18, 18, 0.925);
 }
 
 .card--two {
