@@ -36,19 +36,19 @@ main{
     background-color: #fef4f8;
     .card__title{
         font-family: 'Croissant One', sans-serif;
-        background: linear-gradient(to right, #c46b17, #684eb8);
+        font-size: 20px;
+        font-weight: 500;
+        background: linear-gradient(to right, #ca7424, #684eb8);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-}
-
-.card--two .card__subtitle{
-    color: #c46b17;
-    font-size: 30px;
-}
+        -webkit-text-fill-color: transparent;}
+}       
 
 .card--three{
     background-color: #faf9f8;
+    .card__title{
+        font-family: 'Parisienne';
+        color: #1c51c2;
+    }
 }
 
 .card--four{
@@ -56,8 +56,6 @@ main{
     margin-bottom: 10%;
     .card__title{
         font-family: 'Kaushan Script', sans-serif;
-        .card__subtitle{
-            font-family: 'Segoe Print', sans-serif;
-        }
+        color: rgb(130, 230, 72);
     }
 }
