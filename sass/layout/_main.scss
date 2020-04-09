@@ -24,11 +24,12 @@ main{
     .card__title{
         font-family: 'Devonshire', sans-serif;
         color: rgba(51, 18, 18, 0.925);
-        font-weight: normal;}
+        font-weight: 590;}
         .card__subtitle{
             color: rgba(51, 18, 18, 0.925);
+            font-size: 30px;
+            margin-top: -5px;
         }
-    
 }
 
 .card--two{
