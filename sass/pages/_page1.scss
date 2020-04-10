@@ -1,15 +1,26 @@
-.menu-1{
-    width: 90%;
-    height: 70%;
-    background-color: #fadfda;
+.menu{
     display: flex;
-    .menu-1__heading{
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+    .heading{
         display: flex;
+        margin: auto;
         flex-direction: column;
-        .menu-1__title{
-            font-family: 'Devonshire';
-
-    }
-    
+        align-items: center;
+        .article{
+            display: flex;
+            
         }
+    }   
+}
+
+.menu--one{
+    background-color: #fadfda;
+}
+
+
+
+ .heading__title{
+    font-family: 'Devonshire';
 }
