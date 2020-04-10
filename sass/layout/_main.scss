@@ -24,7 +24,9 @@ main{
     .card__title{
         font-family: 'Devonshire', sans-serif;
         color: rgba(51, 18, 18, 0.925);
-        font-weight: 590;}
+        font-weight: normal;
+        font-size: 25px;
+    }
         
 }
 
@@ -42,9 +44,11 @@ main{
 .card--three{
     background-color: #faf9f8;
     .card__title{
-        font-family: 'Parisienne';
-        font-size: 25px;
-        color: #1c51c2;
+        font-family: 'Parisienne', sans-serif;
+        font-size: 30px;
+        background: linear-gradient(to right, rgb(40, 28, 218), rgb(3, 161, 253) 80% );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
@@ -53,8 +57,9 @@ main{
     margin-bottom: 10%;
     .card__title{
         font-family: 'Kaushan Script', sans-serif;
-        color: rgb(130, 230, 72);background: linear-gradient(to right, rgb(54, 136, 6), rgb(130, 230, 72) 80% );
+        background: linear-gradient(to right, rgb(68, 172, 7), rgb(193, 247, 161) 80% );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        font-size: 25px;
     }
 }

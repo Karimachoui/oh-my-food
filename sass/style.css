@@ -24,8 +24,24 @@
   margin-bottom: -20px;
 }
 
-.card__subtitle {
+.card--one .card__subtitle {
+  width: 130px;
+  margin-top: -20px;
+}
+
+.card--two .card__subtitle {
+  width: 120px;
+  margin-top: -10px;
+}
+
+.card--three .card__subtitle {
+  width: 120px;
+  margin-top: -5px;
+}
+
+.card--four .card__subtitle {
   width: 110px;
+  margin-top: -5px;
 }
 
 body {
@@ -107,7 +123,8 @@ main {
 .card--one .card__title {
   font-family: 'Devonshire', sans-serif;
   color: rgba(51, 18, 18, 0.925);
-  font-weight: 590;
+  font-weight: normal;
+  font-size: 25px;
 }
 
 .card--two {
@@ -129,9 +146,12 @@ main {
 }
 
 .card--three .card__title {
-  font-family: 'Parisienne';
-  font-size: 25px;
-  color: #1c51c2;
+  font-family: 'Parisienne', sans-serif;
+  font-size: 30px;
+  background: -webkit-gradient(linear, left top, right top, from(#281cda), color-stop(80%, #03a1fd));
+  background: linear-gradient(to right, #281cda, #03a1fd 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .card--four {
@@ -141,11 +161,11 @@ main {
 
 .card--four .card__title {
   font-family: 'Kaushan Script', sans-serif;
-  color: #82e648;
-  background: -webkit-gradient(linear, left top, right top, from(#368806), color-stop(80%, #82e648));
-  background: linear-gradient(to right, #368806, #82e648 80%);
+  background: -webkit-gradient(linear, left top, right top, from(#44ac07), color-stop(80%, #c1f7a1));
+  background: linear-gradient(to right, #44ac07, #c1f7a1 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 25px;
 }
 
 .foo {

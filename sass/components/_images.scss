@@ -4,7 +4,23 @@
     margin-bottom: -20px;
 }
 
-.card__subtitle{
+.card--one .card__subtitle{
+    width: 130px;
+    margin-top: -20px;
+}
+
+.card--two .card__subtitle{
+    width: 120px;
+    margin-top: -10px;
+}
+
+.card--three .card__subtitle{
+    width: 120px;
+    margin-top: -5px;
+}
+
+.card--four .card__subtitle{
     width: 110px;
+    margin-top: -5px;
 }
 
