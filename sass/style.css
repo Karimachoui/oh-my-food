@@ -134,7 +134,7 @@ main {
 .card--two .card__title {
   font-family: 'Croissant One', sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: normal;
   background: -webkit-gradient(linear, left top, right top, from(#ca7424), to(#684eb8));
   background: linear-gradient(to right, #ca7424, #684eb8);
   -webkit-background-clip: text;
@@ -148,8 +148,8 @@ main {
 .card--three .card__title {
   font-family: 'Parisienne', sans-serif;
   font-size: 30px;
-  background: -webkit-gradient(linear, left top, right top, from(#281cda), color-stop(80%, #03a1fd));
-  background: linear-gradient(to right, #281cda, #03a1fd 80%);
+  background: -webkit-gradient(linear, left top, right top, from(#1606f7), color-stop(60%, #5489eb));
+  background: linear-gradient(to right, #1606f7, #5489eb 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -161,11 +161,12 @@ main {
 
 .card--four .card__title {
   font-family: 'Kaushan Script', sans-serif;
-  background: -webkit-gradient(linear, left top, right top, from(#44ac07), color-stop(80%, #c1f7a1));
-  background: linear-gradient(to right, #44ac07, #c1f7a1 80%);
+  background: -webkit-gradient(linear, left top, right top, from(#3a9207), color-stop(80%, #c1f7a1));
+  background: linear-gradient(to right, #3a9207, #c1f7a1 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 25px;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 .foo {
