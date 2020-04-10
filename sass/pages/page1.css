@@ -1,6 +1,23 @@
 .menu-1 {
   width: 90%;
-  height: 60%;
+  height: 70%;
   background-color: #fadfda;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-1 .menu-1__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-1 .menu-1__heading .menu-1__title {
+  font-family: 'Devonshire';
 }
 /*# sourceMappingURL=page1.css.map */
