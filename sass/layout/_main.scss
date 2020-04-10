@@ -25,11 +25,7 @@ main{
         font-family: 'Devonshire', sans-serif;
         color: rgba(51, 18, 18, 0.925);
         font-weight: 590;}
-        .card__subtitle{
-            color: rgba(51, 18, 18, 0.925);
-            font-size: 30px;
-            margin-top: -5px;
-        }
+        
 }
 
 .card--two{
@@ -47,6 +43,7 @@ main{
     background-color: #faf9f8;
     .card__title{
         font-family: 'Parisienne';
+        font-size: 25px;
         color: #1c51c2;
     }
 }
@@ -56,6 +53,8 @@ main{
     margin-bottom: 10%;
     .card__title{
         font-family: 'Kaushan Script', sans-serif;
-        color: rgb(130, 230, 72);
+        color: rgb(130, 230, 72);background: linear-gradient(to right, rgb(54, 136, 6), rgb(130, 230, 72) 80% );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }

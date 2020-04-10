@@ -25,7 +25,7 @@
 }
 
 .card__subtitle {
-  width: 100px;
+  width: 110px;
 }
 
 body {
@@ -110,12 +110,6 @@ main {
   font-weight: 590;
 }
 
-.card--one .card__subtitle {
-  color: rgba(51, 18, 18, 0.925);
-  font-size: 30px;
-  margin-top: -5px;
-}
-
 .card--two {
   background-color: #fef4f8;
 }
@@ -136,6 +130,7 @@ main {
 
 .card--three .card__title {
   font-family: 'Parisienne';
+  font-size: 25px;
   color: #1c51c2;
 }
 
@@ -147,6 +142,10 @@ main {
 .card--four .card__title {
   font-family: 'Kaushan Script', sans-serif;
   color: #82e648;
+  background: -webkit-gradient(linear, left top, right top, from(#368806), color-stop(80%, #82e648));
+  background: linear-gradient(to right, #368806, #82e648 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .foo {
