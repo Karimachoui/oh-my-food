@@ -10,17 +10,14 @@
         align-items: center;
         .article{
             display: flex;
-            
         }
     }   
 }
 
 .menu--one{
     background-color: #fadfda;
+    .heading--one .heading__title{
+        font-family: 'Devonshire';
+    }
 }
 
-
-
- .heading__title{
-    font-family: 'Devonshire';
-}
