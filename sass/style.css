@@ -56,10 +56,6 @@
   margin-bottom: -30px;
 }
 
-.trio__image {
-  width: 70px;
-}
-
 body {
   margin: 0;
   display: -webkit-box;
@@ -233,8 +229,38 @@ main {
   margin: auto;
 }
 
+.menu__trio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+      grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+  margin: auto;
+}
+
+.trio__image--L {
+  width: 60px;
+  height: 10px;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
 .trio__title {
   font-size: 20px;
+  -ms-grid-column: 5;
+  grid-column: 5;
+}
+
+.trio__image--R {
+  width: 60px;
+  height: 10px;
+  -ms-grid-column: 10;
+  grid-column: 10;
 }
 
 .menu--one {
@@ -244,6 +270,7 @@ main {
 .menu--one .heading__title {
   font-family: 'Devonshire';
   font-weight: normal;
+  font-size: 35px;
 }
 
 .heading--one {

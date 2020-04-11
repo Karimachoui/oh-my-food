@@ -15,10 +15,29 @@
     margin: auto;
 }
 
+.menu__trio{
+    display: flex;
+    align-items: baseline;
+    display: grid;
+    grid-template-columns: (20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px);
+    margin: auto;
+}
 
+.trio__image--L{
+    width: 60px;
+    height: 10px;
+    grid-column: 1;
+}
 
 .trio__title{
     font-size: 20px;
+    grid-column: 5;
+}
+
+.trio__image--R{
+    width: 60px;
+    height: 10px;
+    grid-column: 10;
 }
 
 .menu--one{
@@ -26,6 +45,7 @@
     .heading__title{
         font-family: 'Devonshire';
         font-weight: normal;
+        font-size: 35px;
     }
 }
 
