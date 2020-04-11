@@ -11,6 +11,12 @@
     padding: 5%;
 }
 
+.menu__heading{
+    margin: auto;
+}
+
+
+
 .trio__title{
     font-size: 20px;
 }
@@ -19,12 +25,13 @@
     background-color: #fadfda;
     .heading__title{
         font-family: 'Devonshire';
+        font-weight: normal;
     }
 }
 
 .heading--one{
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
