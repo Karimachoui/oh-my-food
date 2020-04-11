@@ -1,23 +1,61 @@
+.header--one{
+    margin-bottom: 10%;
+}
+
 .menu{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 90%;
-    .heading{
-        display: flex;
-        margin: auto;
-        flex-direction: column;
-        align-items: center;
-        .article{
-            display: flex;
-        }
-    }   
+    margin-bottom: 20%;
+    width: 80%;
+    padding: 5%;
+}
+
+.heading{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.trio{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+}
+
+.menu .starter{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.menu .main-dish{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.menu .dessert{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
 }
 
 .menu--one{
     background-color: #fadfda;
-    .heading--one .heading__title{
+    .heading__title{
         font-family: 'Devonshire';
     }
 }
 
+.trio__title{
+    font-size: 20px;
+}
+    

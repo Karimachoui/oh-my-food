@@ -52,6 +52,14 @@
   width: 20px;
 }
 
+.heading__image {
+  margin-bottom: -30px;
+}
+
+.trio .image--L, .image--R {
+  width: 100px;
+}
+
 body {
   margin: 0;
   display: -webkit-box;
@@ -203,6 +211,10 @@ main {
   grid-column: 3;
 }
 
+.header--one {
+  margin-bottom: 10%;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,10 +224,12 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
-  width: 90%;
+  margin-bottom: 20%;
+  width: 80%;
+  padding: 5%;
 }
 
-.menu .heading {
+.heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -229,17 +243,70 @@ main {
           align-items: center;
 }
 
-.menu .heading .article {
+.trio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 30px;
+}
+
+.menu .starter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10%;
+}
+
+.menu .main-dish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu .dessert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .menu--one {
   background-color: #fadfda;
 }
 
-.menu--one .heading--one .heading__title {
+.menu--one .heading__title {
   font-family: 'Devonshire';
+}
+
+.trio__title {
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
