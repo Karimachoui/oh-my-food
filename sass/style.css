@@ -40,6 +40,7 @@
 
 .foo__image {
   width: 20px;
+  height: 20px;
 }
 
 .heading__image {
@@ -193,8 +194,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: auto;
-  margin-bottom: 20%;
+  margin: 10% auto 20%;
   width: 80%;
   padding: 5%;
 }
@@ -234,6 +234,17 @@ main {
   height: 10px;
   -ms-grid-column: 3;
   grid-column: 3;
+}
+
+.menu__starter, .menu__dish, .menu__dessert {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Kalam',cursive;
+}
+
+.starter__price, .dish__price, .dessert__price {
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .foo {
@@ -280,7 +291,7 @@ main {
 }
 
 .heading--one .heading__title {
-  font-family: 'Devonshire';
+  font-family: 'Devonshire', cursive;
   font-weight: normal;
   font-size: 25px;
 }
@@ -288,10 +299,6 @@ main {
 .trio__starter--one {
   -ms-grid-columns: 110px 115px 60px;
       grid-template-columns: 110px 115px 60px;
-}
-
-.trio__title--one {
-  font-family: 'kalam', cursive;
 }
 
 .trio__dish--one {
@@ -302,5 +309,34 @@ main {
 .trio__dessert--one {
   -ms-grid-columns: 70px 155px 60px;
       grid-template-columns: 70px 155px 60px;
+}
+
+.trio__title--one {
+  font-family: 'kalam', cursive;
+}
+
+.meal--one--two {
+  margin-bottom: 20px;
+}
+
+.last--meal {
+  margin-bottom: -15px;
+}
+
+.foo--one {
+  margin-top: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.foo--one .foo__title {
+  font-family: 'Devonshire', cursive;
+  font-weight: normal;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */

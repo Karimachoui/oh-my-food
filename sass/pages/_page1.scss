@@ -1,37 +1,39 @@
-
-
-
-
-.menu--one{
-    background-color: #fadfda;
-}
+.menu--one{background-color: #fadfda;}
 
 .heading--one{
     display: flex;
     flex-direction: column;
     align-items: center;
     .heading__title{
-        font-family: 'Devonshire';
+        font-family: 'Devonshire', cursive;
         font-weight: normal;
         font-size: 25px;
     }
 }
 
+.trio__starter--one{grid-template-columns: (110px 115px 60px);}
+.trio__dish--one{grid-template-columns: (80px 145px 60px);}
+.trio__dessert--one{grid-template-columns: (70px 155px 60px);}
 
+.trio__title--one{font-family: 'kalam', cursive;}
 
-.trio__starter--one{
-    grid-template-columns: (110px 115px 60px);
+.meal--one--two{
+    margin-bottom: 20px;
 }
 
-.trio__title--one{        
-    font-family: 'kalam', cursive;
+.last--meal{
+    margin-bottom: -15px;
 }
 
-.trio__dish--one{
-    grid-template-columns: (80px 145px 60px);
-}
-
-.trio__dessert--one{
-    grid-template-columns: (70px 155px 60px);
+.foo--one{
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    .foo__title{
+        font-family: 'Devonshire', cursive;
+        font-weight: normal;
+        margin-left: 10px;
+    }
 }
 
