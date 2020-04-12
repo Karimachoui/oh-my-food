@@ -48,8 +48,15 @@ main{
         font-size: 30px;
         background: linear-gradient(to right, rgb(22, 6, 247), rgb(84, 137, 235) 60% );
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;        
     }
+}
+
+.card--three .card__subtitle{
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: rgb(24, 138, 245);
+    margin-top: -15px;
 }
 
 .card--four{
@@ -63,4 +70,11 @@ main{
         font-size: 28px;
         font-weight: 500;
     }
+}
+
+.card--four .card__subtitle{
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: rgba(82, 173, 97, 0.74);
+    margin-top: -15px;
 }
