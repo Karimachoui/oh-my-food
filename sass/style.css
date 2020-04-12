@@ -53,7 +53,7 @@
 }
 
 .heading__image {
-  margin-bottom: -30px;
+  margin-bottom: -25px;
 }
 
 body {
@@ -207,10 +207,6 @@ main {
   grid-column: 3;
 }
 
-.header--one {
-  margin-bottom: 10%;
-}
-
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,48 +225,8 @@ main {
   margin: auto;
 }
 
-.menu__trio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
-      grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
-  margin: auto;
-}
-
-.trio__image--L {
-  width: 60px;
-  height: 10px;
-  -ms-grid-column: 1;
-  grid-column: 1;
-}
-
-.trio__title {
-  font-size: 20px;
-  -ms-grid-column: 5;
-  grid-column: 5;
-}
-
-.trio__image--R {
-  width: 60px;
-  height: 10px;
-  -ms-grid-column: 10;
-  grid-column: 10;
-}
-
 .menu--one {
   background-color: #fadfda;
-}
-
-.menu--one .heading__title {
-  font-family: 'Devonshire';
-  font-weight: normal;
-  font-size: 35px;
 }
 
 .heading--one {
@@ -284,5 +240,46 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.heading--one .heading__title {
+  font-family: 'Devonshire';
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.trio--starter--one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60px 30px 65px 30px 60px;
+      grid-template-columns: 60px 30px 65px 30px 60px;
+  margin-top: -20px;
+}
+
+.trio--starter--one .trio__image--L {
+  width: 60px;
+  height: 10px;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.trio--starter--one .trio__title {
+  font-size: 20px;
+  -ms-grid-column: 3;
+  grid-column: 3;
+}
+
+.trio--starter--one .trio__image--R {
+  width: 60px;
+  height: 10px;
+  -ms-grid-column: 5;
+  grid-column: 5;
 }
 /*# sourceMappingURL=style.css.map */
