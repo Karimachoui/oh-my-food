@@ -252,7 +252,7 @@ main {
   font-size: 25px;
 }
 
-.trio--starter--one {
+.menu__trio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,28 +262,42 @@ main {
   margin: auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 60px 30px 65px 30px 60px;
-      grid-template-columns: 60px 30px 65px 30px 60px;
   margin-top: -20px;
 }
 
-.trio--starter--one .trio__image--L {
+.trio__starter--one {
+  -ms-grid-columns: 110px 115px 60px;
+      grid-template-columns: 110px 115px 60px;
+}
+
+.trio__image--L {
   width: 60px;
   height: 10px;
   -ms-grid-column: 1;
   grid-column: 1;
 }
 
-.trio--starter--one .trio__title {
+.trio__title {
+  font-family: 'kalam', cursive;
   font-size: 20px;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.trio__image--R {
+  width: 60px;
+  height: 10px;
   -ms-grid-column: 3;
   grid-column: 3;
 }
 
-.trio--starter--one .trio__image--R {
-  width: 60px;
-  height: 10px;
-  -ms-grid-column: 5;
-  grid-column: 5;
+.trio__dish--one {
+  -ms-grid-columns: 80px 145px 60px;
+      grid-template-columns: 80px 145px 60px;
+}
+
+.trio__dessert--one {
+  -ms-grid-columns: 70px 155px 60px;
+      grid-template-columns: 70px 155px 60px;
 }
 /*# sourceMappingURL=style.css.map */
