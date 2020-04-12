@@ -78,3 +78,37 @@ main{
     color: rgba(82, 173, 97, 0.74);
     margin-top: -15px;
 }
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20%;
+    width: 80%;
+    padding: 5%;
+}
+
+.menu__heading{
+    margin: auto;
+}
+
+.menu__trio{
+    display: flex;
+    align-items: baseline;    
+    margin: auto;
+    display: grid;
+    margin-top: -20px;
+}
+
+.trio__image--L{
+    width: 60px;
+    height: 10px;
+    grid-column: 1;}
+    .trio__title{
+        font-size: 20px;
+        grid-column: 2;}
+        .trio__image--R{
+            width: 60px;
+            height: 10px;
+            grid-column: 3;
+        }

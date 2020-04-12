@@ -185,6 +185,57 @@ main {
   margin-top: -15px;
 }
 
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  margin-bottom: 20%;
+  width: 80%;
+  padding: 5%;
+}
+
+.menu__heading {
+  margin: auto;
+}
+
+.menu__trio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  margin-top: -20px;
+}
+
+.trio__image--L {
+  width: 60px;
+  height: 10px;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.trio__title {
+  font-size: 20px;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.trio__image--R {
+  width: 60px;
+  height: 10px;
+  -ms-grid-column: 3;
+  grid-column: 3;
+}
+
 .foo {
   display: -ms-grid;
   display: grid;
@@ -211,24 +262,6 @@ main {
   grid-column: 3;
 }
 
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: auto;
-  margin-bottom: 20%;
-  width: 80%;
-  padding: 5%;
-}
-
-.menu__heading {
-  margin: auto;
-}
-
 .menu--one {
   background-color: #fadfda;
 }
@@ -252,43 +285,13 @@ main {
   font-size: 25px;
 }
 
-.menu__trio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  margin: auto;
-  display: -ms-grid;
-  display: grid;
-  margin-top: -20px;
-}
-
 .trio__starter--one {
   -ms-grid-columns: 110px 115px 60px;
       grid-template-columns: 110px 115px 60px;
 }
 
-.trio__image--L {
-  width: 60px;
-  height: 10px;
-  -ms-grid-column: 1;
-  grid-column: 1;
-}
-
-.trio__title {
+.trio__title--one {
   font-family: 'kalam', cursive;
-  font-size: 20px;
-  -ms-grid-column: 2;
-  grid-column: 2;
-}
-
-.trio__image--R {
-  width: 60px;
-  height: 10px;
-  -ms-grid-column: 3;
-  grid-column: 3;
 }
 
 .trio__dish--one {
