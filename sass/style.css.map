@@ -11,6 +11,7 @@
         "layout/_main.scss",
         "layout/_footer.scss",
         "pages/_page1.scss",
+        "pages/_page2.scss",
         "utils/_variables.scss",
         "utils/_listes.scss"
     ],
