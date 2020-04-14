@@ -1,0 +1,35 @@
+.menu--two{
+    background-color: #FFF5FE;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.heading--two .heading__title{
+    font-family: 'Croissant One', cursive;
+    font-weight: normal;
+    font-size: 25px;
+    background: linear-gradient(to right, #C77412, #6E4CCC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+.starter--two{
+    color: #C77412;
+}
+
+.dish--two{
+    color:#A56799;
+}
+
+.dessert--two{
+    color:#6E4CCC;
+}
+
+.starter--two, .dish--two, .dessert--two{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.starter__title--two, .dish__title--two, .dessert__title--two{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}

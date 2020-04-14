@@ -131,7 +131,7 @@ main {
 }
 
 .card--two {
-  background-color: #f3e7eb;
+  background-color: #FFF5FE;
 }
 
 .card--two .card__title {
@@ -145,7 +145,7 @@ main {
 }
 
 .card--three {
-  background-color: #faf9f8;
+  background-color: #f9f9f9;
 }
 
 .card--three .card__title {
@@ -165,7 +165,7 @@ main {
 }
 
 .card--four {
-  background-color: #fffdfb;
+  background-color: #fdfffd;
   margin-bottom: 10%;
 }
 
@@ -190,7 +190,7 @@ main {
   display: -ms-grid;
   display: grid;
   width: 100%;
-  background-color: #579c87;
+  background-color: #579C87;
   position: fixed;
   bottom: 0;
   height: 40px;
@@ -214,6 +214,7 @@ main {
 
 .menu--one {
   background-color: #fadfda;
+  font-family: 'Kalam',cursive;
 }
 
 .heading--one {
@@ -279,6 +280,43 @@ main {
   margin-left: 10px;
 }
 
+.menu--two {
+  background-color: #FFF5FE;
+  font-family: 'Monserrat', sans-serif;
+}
+
+.heading--two .heading__title {
+  font-family: 'Croissant One', cursive;
+  font-weight: normal;
+  font-size: 25px;
+  background: -webkit-gradient(linear, left top, right top, from(#C77412), to(#6E4CCC));
+  background: linear-gradient(to right, #C77412, #6E4CCC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.starter--two {
+  color: #C77412;
+}
+
+.dish--two {
+  color: #A56799;
+}
+
+.dessert--two {
+  color: #6E4CCC;
+}
+
+.starter--two, .dish--two, .dessert--two {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.starter__title--two, .dish__title--two, .dessert__title--two {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -332,7 +370,6 @@ main {
 .menu__starter, .menu__dish, .menu__dessert {
   text-align: center;
   margin-bottom: 20px;
-  font-family: 'Kalam',cursive;
 }
 
 .starter__price, .dish__price, .dessert__price {
