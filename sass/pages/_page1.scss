@@ -1,7 +1,13 @@
+/*-----GENERAL-----*/
+
 .menu--one{
     background-color: #fadfda;    
     font-family: 'Kalam',cursive;
 }
+
+.trio__title--one{font-family: 'kalam', cursive;}
+
+/*-----HEADER-----*/
 
 .heading--one{
     display: flex;
@@ -14,22 +20,32 @@
     }
 }
 
-.trio__starter--one{grid-template-columns: (110px 115px 60px);}
-.trio__dish--one{grid-template-columns: (80px 145px 60px);}
-.trio__dessert--one{grid-template-columns: (70px 155px 60px);}
-
-.trio__title--one{font-family: 'kalam', cursive;}
+/*-----GROUPE-----*/
 
 .meal--one--two{
     margin-bottom: 20px;
 }
 
+/*-----ENTREE-----*/
+
+.trio__starter--one{grid-template-columns: (110px 115px 60px);}
+
+/*-----PLAT-----*/
+
+.trio__dish--one{grid-template-columns: (80px 145px 60px);}
+
+/*-----DESSERT-----*/
+
+.trio__dessert--one{grid-template-columns: (70px 155px 60px);}
+
 .last--meal{
     margin-bottom: -15px;
 }
 
+/*-----FOOTER-----*/
+
 .foo--one{
-    margin-top: -20px;
+    padding-top: 5%;
     display: flex;
     align-items: center;
     margin: auto;

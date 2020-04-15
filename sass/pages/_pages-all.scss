@@ -1,3 +1,5 @@
+/*-----GENERAL-----*/
+
 .menu{
     display: flex;
     flex-direction: column;
@@ -6,30 +8,19 @@
     padding: 5%;
 }
 
-.menu__heading{
-    margin: auto;
-}
-
 .menu__trio{
     display: flex;
     align-items: baseline;    
     margin: auto;
     display: grid;
-    margin-top: -20px;
 }
 
-.trio__image--L{
-    width: 60px;
-    height: 10px;
-    grid-column: 1;}
-    .trio__title{
-        font-size: 20px;
-        grid-column: 2;}
-        .trio__image--R{
-            width: 60px;
-            height: 10px;
-            grid-column: 3;
-        }
+.trio__title{
+    font-size: 20px;
+    grid-column: 2;
+}
+
+/*-----GROUPE-----*/
 
 .menu__starter, .menu__dish, .menu__dessert{
     text-align: center;
@@ -40,3 +31,23 @@
     margin-bottom: 10px;
     font-weight: bold;
 }
+
+/*-----HEADER-----*/
+
+.menu__heading{
+    margin: auto;
+}
+
+/*-----IMAGES-----*/
+
+.trio__image--L{
+    width: 60px;
+    height: 10px;
+    grid-column: 1;}
+
+.trio__image--R{
+    width: 60px;
+    height: 10px;
+    grid-column: 3;
+}
+
