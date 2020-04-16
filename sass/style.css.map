@@ -14,6 +14,7 @@
         "pages/_menu1.scss",
         "pages/_menu2.scss",
         "pages/_menu3.scss",
+        "pages/_menu4.scss",
         "utils/_variables.scss",
         "utils/_listes.scss"
     ],
