@@ -1,0 +1,43 @@
+/*-----GENERAL-----*/
+
+#menu--three{
+    background-color: #edefef;
+    font-family: 'Kalam', sans-serif;
+    padding: inherit;
+    width: 90%;
+    padding-bottom: 10%;
+}
+
+#title--three{
+    font-weight: bold;
+    font-size: 18px;
+    margin: auto;
+}
+
+.trio--three{
+    width: 90%;
+    grid-template-rows: (40px);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    grid-template-columns: (50px 207px 49px);
+}
+
+/*-----HEADER-----*/
+
+.heading--three .heading__title{
+    font-family: 'Parisienne', cursive;
+    font-weight: normal;
+    font-size: 25px;
+    background: linear-gradient(to right, rgb(22, 6, 247), rgb(84, 137, 235) 60% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;     
+}
+
+/*-----IMAGES-----*/
+
+#image__L--three, #image__R--three{
+    width: 50px;
+    height: 5px;
+    margin: auto;
+    margin-left: 0;
+}

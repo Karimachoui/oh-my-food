@@ -415,4 +415,48 @@ main {
 .dessert--two {
   color: #6E4CCC;
 }
+
+/*-----GENERAL-----*/
+#menu--three {
+  background-color: #edefef;
+  font-family: 'Kalam', sans-serif;
+  padding: inherit;
+  width: 90%;
+  padding-bottom: 10%;
+}
+
+#title--three {
+  font-weight: bold;
+  font-size: 18px;
+  margin: auto;
+}
+
+.trio--three {
+  width: 90%;
+  -ms-grid-rows: 40px;
+      grid-template-rows: 40px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  -ms-grid-columns: 50px 207px 49px;
+      grid-template-columns: 50px 207px 49px;
+}
+
+/*-----HEADER-----*/
+.heading--three .heading__title {
+  font-family: 'Parisienne', cursive;
+  font-weight: normal;
+  font-size: 25px;
+  background: -webkit-gradient(linear, left top, right top, from(#1606f7), color-stop(60%, #5489eb));
+  background: linear-gradient(to right, #1606f7, #5489eb 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*-----IMAGES-----*/
+#image__L--three, #image__R--three {
+  width: 50px;
+  height: 5px;
+  margin: auto;
+  margin-left: 0;
+}
 /*# sourceMappingURL=style.css.map */
