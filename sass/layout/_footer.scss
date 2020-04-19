@@ -1,5 +1,7 @@
 .foo{
     display: grid;
+    grid-template-columns: (170px 170x);
+    grid-column-gap: 35px;
     width: 100%;
     background-color: #579C87;
     position: fixed;
@@ -10,6 +12,7 @@
         color: #fcc42d;
         font-family: 'Montserrat', sans-serif;
         margin: auto;
+        font-size: 15px;
     }
 }
 
@@ -18,6 +21,6 @@
 }
 
 .foo__link--right{
-    grid-column: 3;
+    grid-column: 2;
 }
 
