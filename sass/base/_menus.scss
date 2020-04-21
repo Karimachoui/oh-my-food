@@ -12,7 +12,11 @@
     display: flex;
     align-items: baseline;    
     margin: auto;
+    grid-template-columns: (15% 70% 15%);
     display: grid;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
 }
 
 .trio__title{
@@ -20,16 +24,23 @@
     grid-column: 2;
 }
 
+.meal{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    font-size: 18px;
+}
+
 /*-----GROUPE-----*/
 
 .menu__starter, .menu__dish, .menu__dessert{
-    text-align: center;
     margin-bottom: 20px;
 }
 
 .starter__price, .dish__price, .dessert__price{
     margin-bottom: 10px;
     font-weight: bold;
+    text-align: center;
 }
 
 /*-----HEADER-----*/
@@ -41,13 +52,15 @@
 /*-----IMAGES-----*/
 
 .trio__image--L{
-    width: 60px;
+    width: 50px;
     height: 10px;
-    grid-column: 1;}
-
-.trio__image--R{
-    width: 60px;
-    height: 10px;
-    grid-column: 3;
+    grid-column: 1;
+    margin: auto;
 }
 
+.trio__image--R{
+    width: 50px;
+    height: 10px;
+    grid-column: 3;
+    margin: auto;
+}

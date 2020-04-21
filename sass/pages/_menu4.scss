@@ -3,23 +3,7 @@
 #menu--four{
     background-color: #FDFFFD;
     font-family: 'Kalam', sans-serif;
-    padding: inherit;
-    width: 90%;
     padding-bottom: 10%;
-}
-
-#title--four{
-    font-weight: bold;
-    font-size: 18px;
-    margin: auto;
-}
-
-.trio--four{
-    width: 90%;
-    grid-template-rows: (40px);
-    margin-top: 10%;
-    margin-bottom: 10%;
-    grid-template-columns: (50px 207px 49px);
 }
 
 /*-----HEADER-----*/
@@ -32,13 +16,4 @@
     background: linear-gradient(to right, rgb(58, 146, 7), rgb(190, 255, 127) 80% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
-}
-
-/*-----IMAGES-----*/
-
-#image__L--four, #image__R--four{
-    width: 50px;
-    height: 5px;
-    margin: auto;
-    margin-left: 0;
 }
