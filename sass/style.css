@@ -344,7 +344,6 @@
   .menu__dessert .meal--one--two {
     margin-bottom: 10px;
   }
-  /*---MENU---FOOTER---ONE---*/
   .menu--one .foo--one {
     margin-top: -40px;
     margin-bottom: -20px;
@@ -355,6 +354,40 @@
   }
   .foo__title {
     font-size: 30px;
+  }
+  /*---MENU---TWO---*/
+  #menu--two .heading__title {
+    font-size: 30px;
+    margin: 60px 0px 80px;
+  }
+  #menu--two .menu__trio {
+    width: 100%;
+    -ms-grid-columns: 33% 40% 30%;
+        grid-template-columns: 33% 40% 30%;
+    margin-left: -15px;
+    margin-bottom: 65px;
+  }
+  .menu__trio #title--two {
+    font-size: 16px;
+  }
+  #menu--two .trio__image--L, .trio__image--R {
+    width: 175px;
+    height: 12px;
+  }
+  #menu--two .line {
+    width: 460px;
+  }
+  #menu--two .meal {
+    font-size: 14px;
+  }
+  #menu--two .menu__starter {
+    margin-bottom: 55px;
+  }
+  #menu--two .menu__dish {
+    margin-bottom: 55px;
+  }
+  #menu--two .menu__dessert {
+    margin-bottom: 55px;
   }
 }
 
@@ -418,15 +451,12 @@
 
 .heading__image {
   width: 35px;
+  margin-bottom: -25px;
 }
 
 .foo__image {
   width: 20px;
   height: 20px;
-}
-
-.heading__image {
-  margin-bottom: -25px;
 }
 
 body {
@@ -586,8 +616,8 @@ main {
   font-weight: normal;
   margin-bottom: 20%;
   font-size: 25px;
-  background: -webkit-gradient(linear, left top, right top, from(#C77412), to(#6E4CCC));
-  background: linear-gradient(to right, #C77412, #6E4CCC);
+  background: -webkit-gradient(linear, left top, right top, from(#C77412), to(#9E64D5));
+  background: linear-gradient(to right, #C77412, #9E64D5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

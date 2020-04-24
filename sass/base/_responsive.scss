@@ -172,8 +172,6 @@
     .menu__dessert .meal--one--two{
         margin-bottom: 10px;
     }  
-    
-/*---MENU---FOOTER---ONE---*/
 
     .menu--one .foo--one{
         margin-top: -40px;
@@ -188,6 +186,43 @@
     .foo__title{
         font-size: 30px;
     }
+    
+/*---MENU---TWO---*/
+
+    #menu--two .heading__title{
+        font-size: 30px;
+        margin: 60px 0px 80px;
+    }
+
+    #menu--two .menu__trio{
+        width: 100%;
+        grid-template-columns: (33% 40% 30%);
+        margin-left: -15px;
+        margin-bottom: 65px;
+    }
+
+    .menu__trio #title--two{
+        font-size: 16px;
+    }
+
+    #menu--two .trio__image--L, .trio__image--R{
+        width: 175px;
+        height: 12px;
+    }
+
+    #menu--two .line{
+        width: 460px;
+    }
+
+    #menu--two .meal{
+        font-size: 14px;
+    }
+
+    #menu--two .menu__starter{margin-bottom: 55px;}
+    #menu--two .menu__dish{margin-bottom: 55px;}
+    #menu--two .menu__dessert{margin-bottom: 55px;}
+
+
 
 }    
 
