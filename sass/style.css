@@ -178,9 +178,9 @@
 }
 
 /*---------------------*/
-/*---MINIMUM---600PX---*/
+/*---MINIMUM---650PX---*/
 /*---------------------*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 650px) {
   /*---HEADER---GENERAL---*/
   .header__logo {
     font-size: 40px;
@@ -358,36 +358,37 @@
   /*---MENU---TWO---*/
   #menu--two .heading__title {
     font-size: 30px;
-    margin: 60px 0px 80px;
+    margin: 60px 0px 75px;
   }
   #menu--two .menu__trio {
     width: 100%;
-    -ms-grid-columns: 33% 40% 30%;
-        grid-template-columns: 33% 40% 30%;
+    -ms-grid-columns: 33% 42% 25%;
+        grid-template-columns: 33% 42% 25%;
     margin-left: -15px;
     margin-bottom: 65px;
   }
   .menu__trio #title--two {
-    font-size: 16px;
+    font-size: 15px;
   }
   #menu--two .trio__image--L, .trio__image--R {
     width: 175px;
-    height: 12px;
+    height: 13px;
   }
   #menu--two .line {
     width: 460px;
   }
   #menu--two .meal {
     font-size: 14px;
+    margin-bottom: 17px;
   }
   #menu--two .menu__starter {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
   }
   #menu--two .menu__dish {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
   }
   #menu--two .menu__dessert {
-    margin-bottom: 55px;
+    margin-bottom: 50px;
   }
 }
 
