@@ -120,6 +120,14 @@
 
 /*---MENUS---GENERAL---*/
 
+    .nom__restaurant{
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: -60px;
+    }
+
     .menu{
         width: 70%;
     }
@@ -223,7 +231,88 @@
     #menu--two .menu__dish{margin-bottom: 45px;}
     #menu--two .menu__dessert{margin-bottom: 50px;}
 
+/*---MENU---THREE---*/
 
+    #menu--three .heading--three .heading__title{
+        font-size: 50px;
+        font-weight: 800;
+        margin: 50px auto 45px;
+    }
+    
+    #menu--three .menu__trio{
+        width: 95%;
+        grid-template-columns: (33% 42% 25%);
+        margin-left: -10px;
+        margin-bottom: 40px;
+    }
+
+    #menu--three .menu__trio .trio__title{
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    #menu--three .trio__image--L, .trio__image--R{
+        width: 170px;
+        height: 10px;
+    }
+
+    #menu--three .line{
+        width: 430px;
+        margin-bottom: -7px;
+    }
+
+    #menu--three .meal--three{
+        font-size: 14px;
+    }
+
+    .price--three{
+        font-size: 18px;
+    }
+
+    .starter--three, .dish--three{
+        margin-bottom: 10px;
+    }
+
+    .dessert--three{
+        margin-bottom: 80px;
+    }
+
+/*---MENU---FOUR---*/
+
+    #menu--four .heading--four .heading__title{
+        font-size: 55px;
+        margin: 40px auto 40px;
+    }
+
+    #menu--four .menu__trio{
+        width: 95%;
+        grid-template-columns: (33% 42% 25%);
+        margin-left: -10px;
+        margin-bottom: 40px;
+    }
+
+    #menu--four .menu__trio .trio__title{
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    #menu--four .trio__image--L, .trio__image--R{
+        width: 200px;
+        height: 10px;
+    }
+
+    .starter--four, .dish--four{
+        margin-bottom: 5px;
+    }
+
+    #menu--four .line{
+        width: 490px;
+        margin-bottom: -4px;
+    }
+
+    #menu--four .price{
+        font-size: 18px;
+    }
 
 }    
 

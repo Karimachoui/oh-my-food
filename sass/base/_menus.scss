@@ -3,9 +3,7 @@
 .nom__restaurant{
     text-align: center;
     font-family: sans-serif;
-    font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: -60px;
+    margin-bottom: -15px;
 }
 
 .menu{
@@ -45,7 +43,7 @@
     margin-bottom: 20px;
 }
 
-.starter__price, .dish__price, .dessert__price{
+.price{
     margin-bottom: 10px;
     font-weight: bold;
     text-align: center;
