@@ -180,12 +180,15 @@
 /*---------------------*/
 @media only screen and (min-width: 650px) {
   /*---HEADER---GENERAL---*/
+  body .header__heading {
+    height: 125px;
+  }
   .header__logo {
-    font-size: 40px;
+    font-size: 50px;
   }
   /*---FOOTER---GENERAL---*/
   body .foo {
-    height: 60px;
+    height: 68px;
     -ms-grid-columns: 25% 25%;
         grid-template-columns: 25% 25%;
     grid-column-gap: 50%;
@@ -293,12 +296,9 @@
     margin-bottom: -60px;
   }
   .menu {
-    width: 70%;
-  }
-  .menu__trio {
-    -ms-grid-columns: 34% 32% 34%;
-        grid-template-columns: 34% 32% 34%;
-    width: 90%;
+    width: 80%;
+    padding: inherit;
+    margin-bottom: 23%;
   }
   .menu__starter, .menu__dish, .menu__dessert {
     display: -webkit-box;
@@ -308,7 +308,6 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: -35px;
   }
   .line {
     display: -webkit-box;
@@ -318,40 +317,40 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 480px;
-  }
-  .menu__starter .line .meal {
-    font-size: 15px;
-  }
-  .menu__dish .line .meal {
-    font-size: 15px;
-  }
-  .menu__dessert .line .meal {
-    font-size: 15px;
   }
   .meal {
     margin: 0;
   }
-  /*---MENUS---TRAITS---*/
-  .trio__image--L, .trio__image--R {
-    width: 170px;
-    height: 15px;
-  }
   /*---MENU---ONE---*/
   .heading--one .heading__image {
-    width: 70px;
+    width: 60px;
+    margin-top: 40px;
   }
   .menu--one .heading--one .heading__title {
-    font-size: 40px;
-    margin: inherit;
-    margin-top: 20px;
+    font-size: 38px;
+    margin: 20px auto 5px;
+  }
+  .menu--one .menu__trio {
+    -ms-grid-columns: 33% 34% 33%;
+        grid-template-columns: 33% 34% 33%;
+    width: 79%;
+    margin-bottom: -10px;
+  }
+  .menu--one .trio__image--L, .menu--one .trio__image--R {
+    width: 100%;
+    height: 23%;
+  }
+  .menu--one .line {
+    width: 78%;
+  }
+  .menu--one .meal {
+    font-size: 14px;
   }
   .menu__dessert .meal--one--two {
     margin-bottom: 10px;
   }
   .menu--one .foo--one {
-    margin-top: -40px;
-    margin-bottom: -20px;
+    margin: -40px auto 25px;
   }
   .menu__foo .foo__image {
     width: 35px;
@@ -361,6 +360,9 @@
     font-size: 30px;
   }
   /*---MENU---TWO---*/
+  #menu--two {
+    padding: inherit;
+  }
   #menu--two .heading__title {
     font-size: 30px;
     margin: 60px 0px 75px;
@@ -375,7 +377,7 @@
   .menu__trio #title--two {
     font-size: 15px;
   }
-  #menu--two .trio__image--L, .trio__image--R {
+  #menu--two .trio__image--L, #menu--two .trio__image--R {
     width: 175px;
     height: 13px;
   }
@@ -396,6 +398,9 @@
     margin-bottom: 50px;
   }
   /*---MENU---THREE---*/
+  #menu--three {
+    padding: inherit;
+  }
   #menu--three .heading--three .heading__title {
     font-size: 50px;
     font-weight: 800;
@@ -412,7 +417,7 @@
     font-size: 17px;
     font-weight: normal;
   }
-  #menu--three .trio__image--L, .trio__image--R {
+  #menu--three .trio__image--L, #menu--three .trio__image--R {
     width: 170px;
     height: 10px;
   }
@@ -439,17 +444,16 @@
   }
   #menu--four .menu__trio {
     width: 95%;
-    -ms-grid-columns: 33% 42% 25%;
-        grid-template-columns: 33% 42% 25%;
-    margin-left: -10px;
+    -ms-grid-columns: 30% 40% 30%;
+        grid-template-columns: 30% 40% 30%;
     margin-bottom: 40px;
   }
   #menu--four .menu__trio .trio__title {
     font-size: 17px;
     font-weight: normal;
   }
-  #menu--four .trio__image--L, .trio__image--R {
-    width: 200px;
+  #menu--four .trio__image--L, #menu--four .trio__image--R {
+    width: 100%;
     height: 10px;
   }
   .starter--four, .dish--four {
@@ -482,6 +486,26 @@
     -ms-grid-columns: 20% 20%;
         grid-template-columns: 20% 20%;
     grid-column-gap: 60%;
+  }
+  /*---MENUS---GENERAL---*/
+  .menu {
+    max-width: 1000px;
+  }
+  .menu--one .trio__image--L, .menu--one .trio__image--R {
+    width: 400px;
+    height: 20px;
+  }
+  #menu--two .trio__image--L, #menu--two .trio__image--R {
+    width: 400px;
+    height: 20px;
+  }
+  #menu--three .trio__image--L, #menu--three .trio__image--R {
+    width: 400px;
+    height: 20px;
+  }
+  #menu--four .trio__image--L, #menu--four .trio__image--R {
+    width: 400px;
+    height: 20px;
   }
 }
 
