@@ -479,39 +479,17 @@
 /*---------------------*/
 /*---MINIMUM---900PX---*/
 /*---------------------*/
-@media only screen and (min-width: 900px) {
-  /*---GENERAL---HEADER---*/
-  body .header__heading {
-    height: 75px;
-  }
-  /*---ACCUEIL---BOUTON---*/
-  #prochainement #push {
-    height: 45px;
-  }
+@media only screen and (min-width: 1024px) {
   /*---GENERAL---FOOTER---*/
   body .foo {
-    height: 40px;
-    -ms-grid-columns: 20% 20%;
-        grid-template-columns: 20% 20%;
-    grid-column-gap: 60%;
+    -ms-grid-columns: 21% 58% 21%;
+        grid-template-columns: 21% 58% 21%;
   }
   /*---MENUS---GENERAL---*/
   .menu {
-    max-width: 1000px;
+    max-width: 1100px;
   }
-  .menu--one .trio__image--L, .menu--one .trio__image--R {
-    width: 400px;
-    height: 20px;
-  }
-  #menu--two .trio__image--L, #menu--two .trio__image--R {
-    width: 400px;
-    height: 20px;
-  }
-  #menu--three .trio__image--L, #menu--three .trio__image--R {
-    width: 400px;
-    height: 20px;
-  }
-  #menu--four .trio__image--L, #menu--four .trio__image--R {
+  .trio__image--L, .menu--one .trio__image--R {
     width: 400px;
     height: 20px;
   }
