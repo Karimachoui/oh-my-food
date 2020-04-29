@@ -168,45 +168,49 @@
         margin-top: 40px;
     }
 
-    .menu--one .heading--one .heading__title{
+    #menu--one .heading--one .heading__title{
         font-size: 38px;
-        margin: 20px auto 5px;
+        margin: 20px auto 10px;
     }
 
 /*--- TRIO ---*/
 
-    .menu--one .menu__trio{
+    #menu--one .menu__trio{
         grid-template-columns: (33% 34% 33%);
-        width: 79%;
-        margin-bottom: -10px;
+        width: 77%;
+        margin-bottom: -6px;
     }
 
-    .menu--one .trio__image--L, .menu--one .trio__image--R{
+    #menu--one .title--one{font-size: 20px;} 
+
+    #menu--one .trio__image--L, #menu--one .trio__image--R{
         width: 100%;
         height: 23%;       
     }
 
 /*--- PLATS ---*/
 
-    .menu--one .line{        
-        width: 78%;
+    #menu--one .line{        
+        width: 76%;
+        margin-bottom: 7px;
     }
 
-    .menu--one .meal{
-        font-size: 14px;
-    }
-    
-    .menu__dessert .meal--one--two{
-        margin-bottom: 10px;
-    } 
-    
+    #menu--one .menu__dessert .line{margin-bottom: 10px;}
+
+    #menu--one .meal{font-size: 14px;}
+
+    #menu--one .price{font-weight: bold;}
+
+    #menu--one .menu__starter{margin-bottom: 30px;}
+    #menu--one .menu__dish{margin-bottom: 22px;}
+     
 /*--- ARTICLE --- FOOTER ---*/
 
-    .menu--one .foo--one{
-        margin: -40px auto 25px;
+    #menu--one .foo--one{
+        margin: 10px auto 20px;
     }
 
-    .menu__foo .foo__image{
+    #menu--one .foo__image{
         width: 35px;
         height: 35px;
     }
@@ -217,9 +221,7 @@
     
 /*------ MENU 2 ------*/
 
-    #menu--two{
-        padding: inherit;
-    }
+    #menu--two{padding: inherit;}
 
 /*--- ARTICLE --- HEADER ---*/
 
@@ -236,9 +238,7 @@
         margin-bottom: 30px;
     }
 
-    .menu__trio #title--two{
-        font-size: 15px;
-    }
+    .menu__trio #title--two{font-size: 15px;}
 
     #menu--two .trio__image--L, #menu--two .trio__image--R{
         width: 100%;
@@ -248,7 +248,7 @@
 /*--- PLATS ---*/
 
     #menu--two .line{
-        width: 435px;
+        width: 71%;
     }
 
     #menu--two .meal{
@@ -298,7 +298,7 @@
 /*--- PLATS ---*/
 
     #menu--three .line{
-        width: 430px;
+        width: 69%;
         margin-bottom: 4px;
     }
 
@@ -325,40 +325,48 @@
 
     #menu--four .heading--four .heading__title{
         font-size: 55px;
-        margin: 40px auto 40px;
+        margin: 65px auto 55px;
     }
 
 /*--- TRIO ---*/
 
     #menu--four .menu__trio{
-        width: 95%;
-        grid-template-columns: (30% 40% 30%);
-        margin-bottom: 40px;
+        width: 92%;
+        grid-template-columns: (36% 28% 36%);
+        margin-bottom: 5px;
     }
 
     #menu--four .menu__trio .trio__title{
-        font-size: 17px;
+        font-size: 16px;
         font-weight: normal;
     }
 
     #menu--four .trio__image--L, #menu--four .trio__image--R{
         width: 100%;
-        height: 10px;
+        height: 18%;
     }
 
 /*--- PLATS ---*/
 
-    .starter--four, .dish--four{
-        margin-bottom: 5px;
+    #menu--four .line{
+        width: 74%;
+        margin-bottom: 4px;
     }
 
-    #menu--four .line{
-        width: 490px;
-        margin-bottom: -4px;
+    #menu--four .meal{
+        font-size: 14px;
     }
 
     #menu--four .price{
         font-size: 18px;
+    }
+
+    .starter--four, .dish--four{
+        margin-bottom: 14px;
+    }
+
+    .dessert--four{
+        margin-bottom: 75px;
     }
 
 }    
