@@ -21,7 +21,6 @@
     grid-template-columns: (15% 70% 15%);
     display: grid;
     text-align: center;
-    width: 100%;
 }
 
 .trio__title{
@@ -36,22 +35,17 @@
     font-size: 18px;
 }
 
-/*-----GROUPE-----*/
-
-
-
 .price{
-    font-weight: bold;
     text-align: center;
 }
 
-/*-----HEADER-----*/
+/*----- HEADER -----*/
 
 .menu__heading{
     margin: auto;
 }
 
-/*-----IMAGES-----*/
+/*----- TRAITS -----*/
 
 .trio__image--L, .trio__image--R{
     width: 50px;
