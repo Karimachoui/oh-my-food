@@ -159,9 +159,11 @@
         margin: 0;
     }  
 
-/*------ MENU 1 ------*/  
+/*---------------------*/
+/*------ MENU 1 ------*/
+/*-------------------*/  
 
-/*--- ARTICLE --- HEADER ---*/
+/*--- MENU 1 --- HEADER ---*/
 
     .heading--one .heading__image{
         width: 60px;
@@ -173,9 +175,9 @@
         margin: 20px auto 10px;
     }
 
-/*--- TRIO ---*/
+/*--- MENU 1 --- TRIO ---*/
 
-    #menu--one .menu__trio{
+    #menu--one #trio--one{
         grid-template-columns: (33% 34% 33%);
         width: 77%;
         margin-bottom: -6px;
@@ -183,12 +185,9 @@
 
     #menu--one .title--one{font-size: 20px;} 
 
-    #menu--one .trio__image--L, #menu--one .trio__image--R{
-        width: 100%;
-        height: 23%;       
-    }
+    #menu--one .trio__image--L, #menu--one .trio__image--R{height: 23%;}
 
-/*--- PLATS ---*/
+/*--- MENU 1 --- PLATS ---*/
 
     #menu--one .line{        
         width: 76%;
@@ -199,40 +198,24 @@
 
     #menu--one .meal{font-size: 14px;}
 
-    #menu--one .price{font-weight: bold;}
+    #menu--one .price{font-size: 16px;}
 
     #menu--one .menu__starter{margin-bottom: 30px;}
     #menu--one .menu__dish{margin-bottom: 22px;}
-     
-/*--- ARTICLE --- FOOTER ---*/
-
-    #menu--one .foo--one{
-        margin: 10px auto 20px;
-    }
-
-    #menu--one .foo__image{
-        width: 35px;
-        height: 35px;
-    }
-
-    .foo__title{
-        font-size: 30px;
-    }
     
+/*---------------------*/
 /*------ MENU 2 ------*/
+/*-------------------*/
 
     #menu--two{padding: inherit;}
 
-/*--- ARTICLE --- HEADER ---*/
+/*--- MENU 2 --- HEADER ---*/
 
-    #menu--two .heading__title{
-        font-size: 30px;
-        margin: 95px 0px 80px;
-    }
+    #menu--two .heading__title{font-size: 30px;}
 
-/*--- TRIO ---*/
+/*--- MENU 2 --- TRIO ---*/
 
-    #menu--two .menu__trio{
+    #menu--two #trio--two{
         width: 92%;
         grid-template-columns: (30% 40% 30%);
         margin-bottom: 30px;
@@ -240,46 +223,41 @@
 
     .menu__trio #title--two{font-size: 15px;}
 
-    #menu--two .trio__image--L, #menu--two .trio__image--R{
-        width: 100%;
-        height: 75%;
-    }
+    #menu--two .menu__trio .trio__image--L, #menu--two .menu__trio .trio__image--R{height: 60%;}
 
-/*--- PLATS ---*/
+/*--- MENU 2 --- PLATS ---*/
 
     #menu--two .line{
         width: 71%;
     }
 
-    #menu--two .meal{
+    #menu--two .line .meal{
         font-size: 14px;
-        margin-bottom: 17px;
     }
 
     .price--two{
         font-weight: normal;
+        font-size: 15px;
     }
 
-    #menu--two .menu__starter{margin-bottom: 45px;}
-    #menu--two .menu__dish{margin-bottom: 45px;}
-    #menu--two .menu__dessert{margin-bottom: 45px;}
+    #menu--two .menu__starter{margin-bottom: -20px;}
+    #menu--two .menu__dish{margin-bottom: -20px;}
+    #menu--two .menu__dessert{margin-bottom: 30px;}
 
+/*---------------------*/
 /*------ MENU 3 ------*/
+/*-------------------*/
 
-    #menu--three{
-        padding: inherit;
-    }
-
-/*--- ARTICLE --- HEADER ---*/
+/*--- MENU 3 --- HEADER ---*/
 
     #menu--three .heading--three .heading__title{
         font-size: 50px;
         font-weight: 800;
         margin: 85px auto 45px;
     }
-/*--- TRIO ---*/   
+/*--- MENU 3 --- TRIO ---*/   
 
-    #menu--three .menu__trio{
+    #menu--three #trio--three{
         width: 90%;
         grid-template-columns: (33% 34% 33%);
         margin-bottom: 5px;
@@ -291,11 +269,10 @@
     }
 
     #menu--three .trio__image--L, #menu--three .trio__image--R{
-        width: 100%;
-        height: 10px;
+        height: 20%;
     }
 
-/*--- PLATS ---*/
+/*--- MENU 3 --- PLATS ---*/
 
     #menu--three .line{
         width: 69%;
@@ -310,27 +287,25 @@
         font-size: 18px;
         font-weight: normal;
     }
+    
+    #menu--three .starter--three{margin-bottom: 10px;}
+    #menu--three .dish--three{margin-bottom: 10px;}
+    #menu--three .dessert--three{margin-bottom: 70px;}
 
-    .starter--three, .dish--three{
-        margin-bottom: 10px;
-    }
-
-    .dessert--three{
-        margin-bottom: 70px;
-    }
-
+/*---------------------*/
 /*------ MENU 4 ------*/
+/*-------------------*/
 
-/*--- ARTICLE --- HEADER ---*/
+/*--- MENU 4 --- HEADER ---*/
 
     #menu--four .heading--four .heading__title{
         font-size: 55px;
         margin: 65px auto 55px;
     }
 
-/*--- TRIO ---*/
+/*--- MENU 4 --- TRIO ---*/
 
-    #menu--four .menu__trio{
+    #menu--four #trio--four{
         width: 92%;
         grid-template-columns: (36% 28% 36%);
         margin-bottom: 5px;
@@ -341,12 +316,9 @@
         font-weight: normal;
     }
 
-    #menu--four .trio__image--L, #menu--four .trio__image--R{
-        width: 100%;
-        height: 18%;
-    }
+    #menu--four .trio__image--L, #menu--four .trio__image--R{height: 18%;}
 
-/*--- PLATS ---*/
+/*--- MENU 4 --- PLATS ---*/
 
     #menu--four .line{
         width: 74%;
@@ -359,6 +331,7 @@
 
     #menu--four .price{
         font-size: 18px;
+        font-weight: normal;
     }
 
     .starter--four, .dish--four{
@@ -393,9 +366,5 @@
         max-width: 700px;
         margin: 100px auto 150px;
     }
-
-    
-
-    
 
 }

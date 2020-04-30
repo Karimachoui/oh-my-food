@@ -1,13 +1,11 @@
-/*-----GENERAL-----*/
+/*------ GENERAL ------*/
 
 #menu--one{
     background-color: #fadfda;    
     font-family: 'Kalam', cursive;
 }
 
-.trio__title--one{font-family: 'kalam', cursive;}
-
-/*-----HEADER-----*/
+/*------ HEADER ------*/
 
 .heading--one{
     display: flex;
@@ -16,19 +14,31 @@
     .heading__title{
         font-family: 'Devonshire', cursive;
         font-weight: normal;
-        font-size: 25px;
+        font-size: 38px;
     }
 }
 
-/*-----FOOTER-----*/
+/*------ TRIO ------*/
+
+#menu--one .menu__trio{grid-template-columns: (25% 50% 25%);}
+#menu--one .menu__trio .title--one{font-family: 'kalam', cursive;}
+#menu--one .trio__image--L, #menu--one .trio__image--R{height: 20%;}
+
+/*------ PLATS ------*/
+
+.line{margin-bottom: 20px;}
+
+
+/*------ FOOTER ------*/
 
 .foo--one{
     display: flex;
     align-items: center;
-    margin: auto;
+    margin: 10px auto 20px;
     .foo__title{
         font-family: 'Devonshire', cursive;
         font-weight: normal;
+        font-size: 30px;
         margin-left: 10px;
     }
 }

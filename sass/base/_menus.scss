@@ -14,13 +14,20 @@
     padding: 5%;
 }
 
+/*----- HEADER -----*/
+
+.menu__heading{
+    margin: auto;
+}
+
 .menu__trio{
     display: flex;
     align-items: baseline;    
     margin: auto;
-    grid-template-columns: (15% 70% 15%);
+    width: 100%;
     display: grid;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .trio__title{
@@ -28,28 +35,8 @@
     grid-column: 2;
 }
 
-.meal{
-    margin: auto;
-    text-align: center;
-    width: auto;
-    font-size: 18px;
-}
-
-.price{
-    text-align: center;
-}
-
-/*----- HEADER -----*/
-
-.menu__heading{
-    margin: auto;
-}
-
-/*----- TRAITS -----*/
-
 .trio__image--L, .trio__image--R{
-    width: 50px;
-    height: 10px;
+    width: 100%;
     margin: auto;
 }
 
@@ -60,3 +47,19 @@
 .trio__image--R{
     grid-column: 3;
 }
+
+/*------ PLATS ------*/
+
+.meal{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    font-size: 18px;
+}
+
+.price{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+

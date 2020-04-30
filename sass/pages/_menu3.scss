@@ -1,4 +1,4 @@
-/*-----GENERAL-----*/
+/*------ GENERAL ------*/
 
 #menu--three{
     background-color: #edefef;
@@ -6,14 +6,22 @@
     padding-bottom: 10%;
 }
 
-/*-----HEADER-----*/
+/*------ HEADER ------*/
 
 .heading--three .heading__title{
-    margin-top: 20%;
+    margin: 85px auto 45px;
     font-family: 'Parisienne', cursive;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 40px;
     background: linear-gradient(to right, #1B4CE3, #5BADF6 60% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;     
 }
+
+/*------ TRIO ------*/
+
+#menu--three .menu__trio{grid-template-columns: (20% 60% 20%);}
+
+.menu__trio .trio__title{font-size: 20px;}
+
+#menu--three .trio__image--L, #menu--three .trio__image--R{height: 15%;}

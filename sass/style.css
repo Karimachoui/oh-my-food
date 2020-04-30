@@ -112,6 +112,11 @@
   padding: 5%;
 }
 
+/*----- HEADER -----*/
+.menu__heading {
+  margin: auto;
+}
+
 .menu__trio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,11 +125,11 @@
       -ms-flex-align: baseline;
           align-items: baseline;
   margin: auto;
-  -ms-grid-columns: 15% 70% 15%;
-      grid-template-columns: 15% 70% 15%;
+  width: 100%;
   display: -ms-grid;
   display: grid;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .trio__title {
@@ -133,26 +138,8 @@
   grid-column: 2;
 }
 
-.meal {
-  margin: auto;
-  text-align: center;
-  width: auto;
-  font-size: 18px;
-}
-
-.price {
-  text-align: center;
-}
-
-/*----- HEADER -----*/
-.menu__heading {
-  margin: auto;
-}
-
-/*----- TRAITS -----*/
 .trio__image--L, .trio__image--R {
-  width: 50px;
-  height: 10px;
+  width: 100%;
   margin: auto;
 }
 
@@ -164,6 +151,20 @@
 .trio__image--R {
   -ms-grid-column: 3;
   grid-column: 3;
+}
+
+/*------ PLATS ------*/
+.meal {
+  margin: auto;
+  text-align: center;
+  width: auto;
+  font-size: 18px;
+}
+
+.price {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 /*--------------------------*/
@@ -321,8 +322,10 @@
   .meal {
     margin: 0;
   }
+  /*---------------------*/
   /*------ MENU 1 ------*/
-  /*--- ARTICLE --- HEADER ---*/
+  /*-------------------*/
+  /*--- MENU 1 --- HEADER ---*/
   .heading--one .heading__image {
     width: 60px;
     margin-top: 40px;
@@ -331,8 +334,8 @@
     font-size: 38px;
     margin: 20px auto 10px;
   }
-  /*--- TRIO ---*/
-  #menu--one .menu__trio {
+  /*--- MENU 1 --- TRIO ---*/
+  #menu--one #trio--one {
     -ms-grid-columns: 33% 34% 33%;
         grid-template-columns: 33% 34% 33%;
     width: 77%;
@@ -342,10 +345,9 @@
     font-size: 20px;
   }
   #menu--one .trio__image--L, #menu--one .trio__image--R {
-    width: 100%;
     height: 23%;
   }
-  /*--- PLATS ---*/
+  /*--- MENU 1 --- PLATS ---*/
   #menu--one .line {
     width: 76%;
     margin-bottom: 7px;
@@ -357,7 +359,7 @@
     font-size: 14px;
   }
   #menu--one .price {
-    font-weight: bold;
+    font-size: 16px;
   }
   #menu--one .menu__starter {
     margin-bottom: 30px;
@@ -365,28 +367,18 @@
   #menu--one .menu__dish {
     margin-bottom: 22px;
   }
-  /*--- ARTICLE --- FOOTER ---*/
-  #menu--one .foo--one {
-    margin: 10px auto 20px;
-  }
-  #menu--one .foo__image {
-    width: 35px;
-    height: 35px;
-  }
-  .foo__title {
-    font-size: 30px;
-  }
+  /*---------------------*/
   /*------ MENU 2 ------*/
+  /*-------------------*/
   #menu--two {
     padding: inherit;
   }
-  /*--- ARTICLE --- HEADER ---*/
+  /*--- MENU 2 --- HEADER ---*/
   #menu--two .heading__title {
     font-size: 30px;
-    margin: 95px 0px 80px;
   }
-  /*--- TRIO ---*/
-  #menu--two .menu__trio {
+  /*--- MENU 2 --- TRIO ---*/
+  #menu--two #trio--two {
     width: 92%;
     -ms-grid-columns: 30% 40% 30%;
         grid-template-columns: 30% 40% 30%;
@@ -395,42 +387,40 @@
   .menu__trio #title--two {
     font-size: 15px;
   }
-  #menu--two .trio__image--L, #menu--two .trio__image--R {
-    width: 100%;
-    height: 75%;
+  #menu--two .menu__trio .trio__image--L, #menu--two .menu__trio .trio__image--R {
+    height: 60%;
   }
-  /*--- PLATS ---*/
+  /*--- MENU 2 --- PLATS ---*/
   #menu--two .line {
     width: 71%;
   }
-  #menu--two .meal {
+  #menu--two .line .meal {
     font-size: 14px;
-    margin-bottom: 17px;
   }
   .price--two {
     font-weight: normal;
+    font-size: 15px;
   }
   #menu--two .menu__starter {
-    margin-bottom: 45px;
+    margin-bottom: -20px;
   }
   #menu--two .menu__dish {
-    margin-bottom: 45px;
+    margin-bottom: -20px;
   }
   #menu--two .menu__dessert {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
+  /*---------------------*/
   /*------ MENU 3 ------*/
-  #menu--three {
-    padding: inherit;
-  }
-  /*--- ARTICLE --- HEADER ---*/
+  /*-------------------*/
+  /*--- MENU 3 --- HEADER ---*/
   #menu--three .heading--three .heading__title {
     font-size: 50px;
     font-weight: 800;
     margin: 85px auto 45px;
   }
-  /*--- TRIO ---*/
-  #menu--three .menu__trio {
+  /*--- MENU 3 --- TRIO ---*/
+  #menu--three #trio--three {
     width: 90%;
     -ms-grid-columns: 33% 34% 33%;
         grid-template-columns: 33% 34% 33%;
@@ -441,10 +431,9 @@
     font-weight: normal;
   }
   #menu--three .trio__image--L, #menu--three .trio__image--R {
-    width: 100%;
-    height: 10px;
+    height: 20%;
   }
-  /*--- PLATS ---*/
+  /*--- MENU 3 --- PLATS ---*/
   #menu--three .line {
     width: 69%;
     margin-bottom: 4px;
@@ -456,20 +445,25 @@
     font-size: 18px;
     font-weight: normal;
   }
-  .starter--three, .dish--three {
+  #menu--three .starter--three {
     margin-bottom: 10px;
   }
-  .dessert--three {
+  #menu--three .dish--three {
+    margin-bottom: 10px;
+  }
+  #menu--three .dessert--three {
     margin-bottom: 70px;
   }
+  /*---------------------*/
   /*------ MENU 4 ------*/
-  /*--- ARTICLE --- HEADER ---*/
+  /*-------------------*/
+  /*--- MENU 4 --- HEADER ---*/
   #menu--four .heading--four .heading__title {
     font-size: 55px;
     margin: 65px auto 55px;
   }
-  /*--- TRIO ---*/
-  #menu--four .menu__trio {
+  /*--- MENU 4 --- TRIO ---*/
+  #menu--four #trio--four {
     width: 92%;
     -ms-grid-columns: 36% 28% 36%;
         grid-template-columns: 36% 28% 36%;
@@ -480,10 +474,9 @@
     font-weight: normal;
   }
   #menu--four .trio__image--L, #menu--four .trio__image--R {
-    width: 100%;
     height: 18%;
   }
-  /*--- PLATS ---*/
+  /*--- MENU 4 --- PLATS ---*/
   #menu--four .line {
     width: 74%;
     margin-bottom: 4px;
@@ -493,6 +486,7 @@
   }
   #menu--four .price {
     font-size: 18px;
+    font-weight: normal;
   }
   .starter--four, .dish--four {
     margin-bottom: 14px;
@@ -559,13 +553,13 @@
 }
 
 .heading__image {
-  width: 35px;
+  width: 60px;
   margin-bottom: -25px;
 }
 
 .foo__image {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
 }
 
 body {
@@ -645,17 +639,13 @@ main {
   grid-column: 3;
 }
 
-/*-----GENERAL-----*/
+/*------ GENERAL ------*/
 #menu--one {
   background-color: #fadfda;
   font-family: 'Kalam', cursive;
 }
 
-.trio__title--one {
-  font-family: 'kalam', cursive;
-}
-
-/*-----HEADER-----*/
+/*------ HEADER ------*/
 .heading--one {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -672,10 +662,29 @@ main {
 .heading--one .heading__title {
   font-family: 'Devonshire', cursive;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 38px;
 }
 
-/*-----FOOTER-----*/
+/*------ TRIO ------*/
+#menu--one .menu__trio {
+  -ms-grid-columns: 25% 50% 25%;
+      grid-template-columns: 25% 50% 25%;
+}
+
+#menu--one .menu__trio .title--one {
+  font-family: 'kalam', cursive;
+}
+
+#menu--one .trio__image--L, #menu--one .trio__image--R {
+  height: 20%;
+}
+
+/*------ PLATS ------*/
+.line {
+  margin-bottom: 20px;
+}
+
+/*------ FOOTER ------*/
 .foo--one {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -683,12 +692,13 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
+  margin: 10px auto 20px;
 }
 
 .foo--one .foo__title {
   font-family: 'Devonshire', cursive;
   font-weight: normal;
+  font-size: 30px;
   margin-left: 10px;
 }
 
@@ -699,18 +709,11 @@ main {
   padding-bottom: 10%;
 }
 
-#title--two {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-size: 18px;
-  margin: auto;
-}
-
 /*-----HEADER-----*/
 .heading--two .heading__title {
   font-family: 'Croissant One', cursive;
   font-weight: normal;
-  margin-bottom: 20%;
+  margin: 95px auto 28px;
   font-size: 25px;
   background: -webkit-gradient(linear, left top, right top, from(#C77412), to(#9E64D5));
   background: linear-gradient(to right, #C77412, #9E64D5);
@@ -718,43 +721,76 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
-/*-----GROUPE-----*/
+/*------ TRIO ------*/
+#menu--two .menu__trio {
+  -ms-grid-columns: 16% 68% 16%;
+      grid-template-columns: 16% 68% 16%;
+  margin: 50px auto 30px;
+}
+
+#menu--two .trio__title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 17px;
+  margin: auto;
+}
+
+#menu--two .trio__image--L, #menu--two .trio__image--R {
+  height: 35%;
+}
+
+/*------ PLATS ------*/
 .starter--two, .dish--two, .dessert--two {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/*-----ENTREE-----*/
 .starter--two {
   color: #C77412;
 }
 
-/*-----PLAT-----*/
 .dish--two {
   color: #A56799;
 }
 
-/*-----DESSERT-----*/
 .dessert--two {
   color: #6E4CCC;
 }
 
-/*-----GENERAL-----*/
+#menu--two .meal {
+  font-size: 16px;
+}
+
+/*------ GENERAL ------*/
 #menu--three {
   background-color: #edefef;
   font-family: 'Kalam', sans-serif;
   padding-bottom: 10%;
 }
 
-/*-----HEADER-----*/
+/*------ HEADER ------*/
 .heading--three .heading__title {
-  margin-top: 20%;
+  margin: 85px auto 45px;
   font-family: 'Parisienne', cursive;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 40px;
   background: -webkit-gradient(linear, left top, right top, from(#1B4CE3), color-stop(60%, #5BADF6));
   background: linear-gradient(to right, #1B4CE3, #5BADF6 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/*------ TRIO ------*/
+#menu--three .menu__trio {
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+
+.menu__trio .trio__title {
+  font-size: 20px;
+}
+
+#menu--three .trio__image--L, #menu--three .trio__image--R {
+  height: 15%;
 }
 
 /*-----GENERAL-----*/
@@ -766,13 +802,19 @@ main {
 
 /*-----HEADER-----*/
 .heading--four .heading__title {
-  margin-top: 20%;
+  margin: 65px auto 55px;
   font-family: 'Kaushan Script', sans-serif;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 40px;
   background: -webkit-gradient(linear, left top, right top, from(#3a9207), color-stop(80%, #beff7f));
   background: linear-gradient(to right, #3a9207, #beff7f 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/*------ TRIO ------*/
+#menu--four .menu__trio {
+  -ms-grid-columns: 22% 56% 22%;
+      grid-template-columns: 22% 56% 22%;
 }
 /*# sourceMappingURL=style.css.map */

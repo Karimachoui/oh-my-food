@@ -9,11 +9,15 @@
 /*-----HEADER-----*/
 
 .heading--four .heading__title{
-    margin-top: 20%;
+    margin: 65px auto 55px;
     font-family: 'Kaushan Script', sans-serif;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 40px;
     background: linear-gradient(to right, rgb(58, 146, 7), rgb(190, 255, 127) 80% );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
 }
+
+/*------ TRIO ------*/
+
+#menu--four .menu__trio{grid-template-columns: (22% 56% 22%);}
