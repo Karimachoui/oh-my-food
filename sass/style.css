@@ -23,6 +23,16 @@
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  scale: 1;
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.card .card__link:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 .card--one {
@@ -34,6 +44,11 @@
   color: rgba(51, 18, 18, 0.925);
   font-weight: normal;
   font-size: 25px;
+}
+
+.card--one .card__link:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .card--two {
@@ -219,7 +234,6 @@
   }
   .card--one .card__title {
     font-size: 23px;
-    font-weight: 600;
   }
   .card--one .card__link {
     margin-top: 50%;
@@ -526,6 +540,7 @@
 
 #prochainement button {
   margin: auto;
+  cursor: pointer;
   background-color: #579c87;
   color: #fcc42d;
   font-family: 'montserrat', sans-serif;
