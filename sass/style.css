@@ -1,3 +1,17 @@
+/*---ACCUEIL---CARDS---*/
+.card .card__link:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  opacity: 0.5;
+}
+
+/*---ACCUEIL---BOUTON---*/
+/*---ACCUEIL---FOOTER---*/
+/*---MENUS---PLATS---*/
+.trio__title:hover {
+  background-size: 100% 150%;
+}
+
 .card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,11 +42,6 @@
   transition: -webkit-transform 300ms;
   transition: transform 300ms;
   transition: transform 300ms, -webkit-transform 300ms;
-}
-
-.card .card__link:hover {
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
 }
 
 .card--one {
@@ -151,6 +160,10 @@
   font-size: 20px;
   -ms-grid-column: 2;
   grid-column: 2;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, #ecb2a7), color-stop(10%, transparent)) no-repeat left bottom/0 100%;
+  background: linear-gradient(to top, #ecb2a7 10%, transparent 10%) no-repeat left bottom/0 100%;
+  -webkit-transition: background-size 300ms;
+  transition: background-size 300ms;
 }
 
 .trio__image--L, .trio__image--R {
