@@ -1,18 +1,33 @@
-#prochainement{
+#push{
     display: flex;
-    width: 100%;
-    margin: auto;
-    margin-bottom: 20%;
-        button{
-            margin: auto;
-            cursor: pointer;
-            background-color: #579c87;
-            color: #fcc42d;
-            font-family: 'montserrat', sans-serif;
-            width: 60%;
-            padding: 2%;
-            border: inherit;
-            border-radius: 10px;
-            font-size: 20px;
-        }
+    flex-direction: row;
+    align-items: baseline;
+    background-color: #579c87;
+    cursor: pointer;
+    width: 220px;
+    height: 40px;
+    border: inherit;
+    border-radius: 10px;
+    margin: 10px auto 100px;
+    #soon{
+        font-family: 'montserrat', sans-serif;
+        margin: auto;
+        color: #fcc42d;
+        padding: 2%;
+        font-size: 20px;
+    }
 }
+
+.loading{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 25px 10px 0px -5px;
+    width: 45px;
+}
+
+#dot--one, #dot--two, #dot--three{
+    margin-right: 5px;
+}
+
+
+

@@ -113,18 +113,17 @@
 
 /*--- ACCUEIL --- BOUTON ---*/
 
-    #container #prochainement{
-        grid-row: 5;
-        grid-column: 2;
-        margin: auto;
-        width: 320px;
+    #container
         #push{
-            font-size: 30px;
-            width: 100%;
+            grid-row: 5;
+            grid-column: 2;
+            margin: auto;
+            width: 320px;
             height: 60px;
             border-radius: 12px;
-            padding: 0 10%;
-        }
+            #soon{
+                font-size: 30px;  
+            }
     }
 
 /*--- MENUS --- GENERAL ---*/

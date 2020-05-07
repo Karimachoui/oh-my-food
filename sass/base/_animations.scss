@@ -7,6 +7,32 @@
 
 /*---ACCUEIL---BOUTON---*/
 
+.loading > div{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #fcc42d;
+  scale: (1);
+  animation: loading-dots 1.4s infinite ease-in-out both;
+}
+
+#dot--one{
+  animation-delay: -300ms;
+}
+
+#dot--two{
+  animation-delay: -150ms;
+}
+
+@keyframes loading-dots{
+  0%, 80%, 100%{
+    transform: scale(0)
+  }
+  40%{
+    transform: scale(1)
+  }
+}
+
 /*---ACCUEIL---FOOTER---*/
 
 .foo__link--left:hover, .foo__link--right:hover {
