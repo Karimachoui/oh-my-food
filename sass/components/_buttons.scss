@@ -1,33 +1,36 @@
 #push{
     display: flex;
-    flex-direction: row;
     align-items: baseline;
     background-color: #579c87;
     cursor: pointer;
-    width: 220px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     border: inherit;
     border-radius: 10px;
     margin: 10px auto 100px;
+    padding: 2%;
     #soon{
         font-family: 'montserrat', sans-serif;
         margin: auto;
         color: #fcc42d;
-        padding: 2%;
-        font-size: 20px;
+        font-size: 25px;
+        grid-column: 1;
     }
 }
 
 .loading{
     display: inline-flex;
     flex-direction: row;
-    margin: 25px 10px 0px -5px;
-    width: 45px;
+    margin: auto;
+    margin-bottom: 5px;
+    grid-column: 2;
 }
 
-#dot--one, #dot--two, #dot--three{
-    margin-right: 5px;
-}
-
-
-
+.loading > div{
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    background-color: #fcc42d;
+    scale: (1);
+    animation: loading-dots 1.4s infinite ease-in-out both;
+  }

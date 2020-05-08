@@ -120,11 +120,16 @@
             margin: auto;
             width: 320px;
             height: 60px;
-            border-radius: 12px;
             #soon{
-                font-size: 30px;  
+                font-size: 30px;
             }
     }
+
+    #push
+        .loading{
+            margin-left: -15px;
+            margin-top: 22px;
+        }
 
 /*--- MENUS --- GENERAL ---*/
 
