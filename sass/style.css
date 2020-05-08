@@ -328,7 +328,7 @@
     font-size: 23px;
   }
   .card--one .card__link {
-    margin-top: 50%;
+    padding-top: 25px;
   }
   .card--one .card__image {
     width: 40px;
