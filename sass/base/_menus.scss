@@ -42,11 +42,24 @@
     margin: auto;
 }
 
+.trio__stroke--L, .trio__stroke--R{
+    width: 100%;
+    margin: auto;
+}
+
 .trio__image--L{
     grid-column: 1;
 }
 
+.trio__stroke--L{
+    grid-column: 1;
+}
+
 .trio__image--R{
+    grid-column: 3;
+}
+
+.trio__stroke--R{
     grid-column: 3;
 }
 

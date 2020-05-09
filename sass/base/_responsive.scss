@@ -226,7 +226,9 @@
 
     .menu__trio #title--two{font-size: 15px;}
 
-    #menu--two .menu__trio .trio__image--L, #menu--two .menu__trio .trio__image--R{height: 60%;}
+    #menu--two .menu__trio .trio__starter__stroke--L, #menu--two .menu__trio .trio__starter__stroke--R{height: 10px;}
+    #menu--two .menu__trio .trio__dish__stroke--L, #menu--two .menu__trio .trio__dish__stroke--R{height: 10px;}
+    #menu--two .menu__trio .trio__dessert__stroke--L, #menu--two .menu__trio .trio__dessert__stroke--R{height: 10px;}
 
 /*--- MENU 2 --- PLATS ---*/
 
