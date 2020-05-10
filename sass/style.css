@@ -531,9 +531,6 @@
     font-size: 17px;
     font-weight: normal;
   }
-  #menu--three .trio__image--L, #menu--three .trio__image--R {
-    height: 20%;
-  }
   /*--- MENU 3 --- PLATS ---*/
   #menu--three .line {
     width: 69%;
@@ -987,8 +984,58 @@ main {
   font-size: 20px;
 }
 
-#menu--three .trio__image--L, #menu--three .trio__image--R {
+#menu--three .stroke__starter__three--L {
+  width: 100%;
   height: 15%;
+  margin: auto;
+  background-color: #0228DD;
+  -webkit-clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+          clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+}
+
+#menu--three .stroke__starter__three--R {
+  width: 100%;
+  height: 15%;
+  margin: auto;
+  background-color: #0228DD;
+  -webkit-clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+          clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+}
+
+#menu--three .stroke__dish__three--L {
+  width: 100%;
+  height: 15%;
+  margin: auto;
+  background-color: #0670F3;
+  -webkit-clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+          clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+}
+
+#menu--three .stroke__dish__three--R {
+  width: 100%;
+  height: 15%;
+  margin: auto;
+  background-color: #0670F3;
+  -webkit-clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+          clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+}
+
+#menu--three .stroke__dessert__three--L {
+  width: 100%;
+  height: 15%;
+  margin: auto;
+  background-color: #229DF9;
+  -webkit-clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+          clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+}
+
+#menu--three .stroke__dessert__three--R {
+  width: 100%;
+  height: 15%;
+  margin: auto;
+  background-color: #229DF9;
+  -webkit-clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+          clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
 }
 
 /*-----GENERAL-----*/
