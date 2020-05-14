@@ -8,14 +8,18 @@
 
 /*-----HEADER-----*/
 
-.heading--two .heading__title{
-    font-family: 'Croissant One', cursive;
-    font-weight: normal;
-    margin: 95px auto 28px;
-    font-size: 25px;
-    background: linear-gradient(to right, #C77412, #9E64D5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
+
+
+#heading--two{
+    margin: 75px auto 15px;
+    .heading__title{
+        font-family: 'Croissant One', cursive;
+        font-weight: normal;
+        font-size: 25px;
+        background: linear-gradient(to right, #C77412, #9E64D5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }   
 }
 
 /*------ TRIO ------*/
@@ -35,62 +39,62 @@
 
 #trio--two
     .trio__starter__stroke--L{
-    width: 100%;
-    height: 8px;
-    background-color: #C77412;
-    clip-path: polygon(100% 50%, 95% 40%, 90% 20%, 88% 10%, 86% 13%, 75% 20%, 50% 35%, 35% 40%, 0 50%, 35% 60%, 50% 65%, 75% 80%, 86% 87%, 88% 90%, 90% 80%, 95% 60%);
-    margin: auto;
-    grid-column: 1;
+        width: 100%;
+        height: 8px;
+        background-color: #C77412;
+        clip-path: polygon(100% 50%, 95% 40%, 90% 20%, 88% 10%, 86% 13%, 75% 20%, 50% 35%, 35% 40%, 0 50%, 35% 60%, 50% 65%, 75% 80%, 86% 87%, 88% 90%, 90% 80%, 95% 60%);
+        margin: auto;
+        grid-column: 1;
 }
 
 #trio--two 
     .trio__starter__stroke--R{
-    width: 100%;
-    height: 8px;
-    background-color: #C77412;
-    clip-path: polygon(0 50%, 5% 40%, 10% 20%, 12% 10%, 14% 13%, 25% 20%, 50% 35%, 65% 40%, 100% 50%, 65% 60%, 50% 65%, 25% 80%, 14% 87%, 12% 90%, 10% 80%, 5% 60%);
-    margin: auto;
-    grid-column: 3;
+        width: 100%;
+        height: 8px;
+        background-color: #C77412;
+        clip-path: polygon(0 50%, 5% 40%, 10% 20%, 12% 10%, 14% 13%, 25% 20%, 50% 35%, 65% 40%, 100% 50%, 65% 60%, 50% 65%, 25% 80%, 14% 87%, 12% 90%, 10% 80%, 5% 60%);
+        margin: auto;
+        grid-column: 3;
 }
 
 #trio--two
     .trio__dish__stroke--L{
-    width: 100%;
-    height: 8px;
-    background-color: #A56799;
-    clip-path: polygon(100% 50%, 95% 40%, 90% 20%, 88% 10%, 86% 13%, 75% 20%, 50% 35%, 35% 40%, 0 50%, 35% 60%, 50% 65%, 75% 80%, 86% 87%, 88% 90%, 90% 80%, 95% 60%);
-    margin: auto;
-    grid-column: 1;
+        width: 100%;
+        height: 8px;
+        background-color: #A56799;
+        clip-path: polygon(100% 50%, 95% 40%, 90% 20%, 88% 10%, 86% 13%, 75% 20%, 50% 35%, 35% 40%, 0 50%, 35% 60%, 50% 65%, 75% 80%, 86% 87%, 88% 90%, 90% 80%, 95% 60%);
+        margin: auto;
+        grid-column: 1;
 }
 
 #trio--two 
     .trio__dish__stroke--R{
-    width: 100%;
-    height: 8px;
-    background-color: #A56799;
-    clip-path: polygon(0 50%, 5% 40%, 10% 20%, 12% 10%, 14% 13%, 25% 20%, 50% 35%, 65% 40%, 100% 50%, 65% 60%, 50% 65%, 25% 80%, 14% 87%, 12% 90%, 10% 80%, 5% 60%);
-    margin: auto;
-    grid-column: 3;
+        width: 100%;
+        height: 8px;
+        background-color: #A56799;
+        clip-path: polygon(0 50%, 5% 40%, 10% 20%, 12% 10%, 14% 13%, 25% 20%, 50% 35%, 65% 40%, 100% 50%, 65% 60%, 50% 65%, 25% 80%, 14% 87%, 12% 90%, 10% 80%, 5% 60%);
+        margin: auto;
+        grid-column: 3;
 }
 
 #trio--two
     .trio__dessert__stroke--L{
-    width: 100%;
-    height: 8px;
-    background-color: #6E4CCC;
-    clip-path: polygon(100% 50%, 95% 40%, 90% 20%, 88% 10%, 86% 13%, 75% 20%, 50% 35%, 35% 40%, 0 50%, 35% 60%, 50% 65%, 75% 80%, 86% 87%, 88% 90%, 90% 80%, 95% 60%);
-    margin: auto;
-    grid-column: 1;
+        width: 100%;
+        height: 8px;
+        background-color: #6E4CCC;
+        clip-path: polygon(100% 50%, 95% 40%, 90% 20%, 88% 10%, 86% 13%, 75% 20%, 50% 35%, 35% 40%, 0 50%, 35% 60%, 50% 65%, 75% 80%, 86% 87%, 88% 90%, 90% 80%, 95% 60%);
+        margin: auto;
+        grid-column: 1;
 }
 
 #trio--two 
     .trio__dessert__stroke--R{
-    width: 100%;
-    height: 8px;
-    background-color: #6E4CCC;
-    clip-path: polygon(0 50%, 5% 40%, 10% 20%, 12% 10%, 14% 13%, 25% 20%, 50% 35%, 65% 40%, 100% 50%, 65% 60%, 50% 65%, 25% 80%, 14% 87%, 12% 90%, 10% 80%, 5% 60%);
-    margin: auto;
-    grid-column: 3;
+        width: 100%;
+        height: 8px;
+        background-color: #6E4CCC;
+        clip-path: polygon(0 50%, 5% 40%, 10% 20%, 12% 10%, 14% 13%, 25% 20%, 50% 35%, 65% 40%, 100% 50%, 65% 60%, 50% 65%, 25% 80%, 14% 87%, 12% 90%, 10% 80%, 5% 60%);
+        margin: auto;
+        grid-column: 3;
 }
 
 /*------ PLATS ------*/

@@ -8,14 +8,16 @@
 
 /*------ HEADER ------*/
 
-.heading--three .heading__title{
-    margin: 85px auto 45px;
-    font-family: 'Parisienne', cursive;
-    font-weight: normal;
-    font-size: 40px;
-    background: linear-gradient(to right, #1B4CE3, #5BADF6 60% );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;     
+#heading--three{
+    margin: 50px auto 20px;    
+    .heading__title{
+        font-family: 'Parisienne', cursive;
+        font-weight: normal;
+        font-size: 40px;
+        background: linear-gradient(to right, #1B4CE3, #5BADF6 60% );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }     
 }
 
 /*------ TRIO ------*/
@@ -24,50 +26,74 @@
 
 .menu__trio .trio__title{font-size: 20px;}
 
-#menu--three .stroke__starter__three--L{
-    width: 100%;
-    height: 15%;
-    margin: auto;
-    background-color: #0228DD;
-    clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+#menu--three
+    .stroke__starter__three--L{
+        width: 100%;
+        height: 35%;
+        margin: auto;
+        background-color: #0228DD;
+        clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+        grid-column: 1;
 }
 
-#menu--three .stroke__starter__three--R{
-    width: 100%;
-    height: 15%;
-    margin: auto;
-    background-color: #0228DD;
-    clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+#menu--three
+    .stroke__starter__three--R{
+        width: 100%;
+        height: 35%;
+        margin: auto;
+        background-color: #0228DD;
+        clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+        grid-column: 3;
 }
 
-#menu--three .stroke__dish__three--L{
-    width: 100%;
-    height: 15%;
-    margin: auto;
-    background-color: #0670F3;
-    clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+#menu--three
+    .stroke__dish__three--L{
+        width: 100%;
+        height: 35%;
+        margin: auto;
+        background-color: #0670F3;
+        clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+        grid-column: 1;
 }
 
-#menu--three .stroke__dish__three--R{
-    width: 100%;
-    height: 15%;
-    margin: auto;
-    background-color: #0670F3;
-    clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+#menu--three
+    .stroke__dish__three--R{
+        width: 100%;
+        height: 35%;
+        margin: auto;
+        background-color: #0670F3;
+        clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+        grid-column: 3;
 }
 
-#menu--three .stroke__dessert__three--L{
-    width: 100%;
-    height: 15%;
-    margin: auto;
-    background-color: #229DF9;
-    clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+#menu--three
+    .stroke__dessert__three--L{
+        width: 100%;
+        height: 35%;
+        margin: auto;
+        background-color: #229DF9;
+        clip-path: polygon(1% 2%, 3% 50%, 5% 75%, 7% 92%, 9% 98%, 11% 100%, 100% 100%, 98% 54%, 11% 54%, 7% 46%, 5% 39%);
+        grid-column: 1;
 }
 
-#menu--three .stroke__dessert__three--R{
-    width: 100%;
-    height: 15%;
-    margin: auto;
-    background-color: #229DF9;
-    clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+#menu--three
+    .stroke__dessert__three--R{
+        width: 100%;
+        height: 35%;
+        margin: auto;
+        background-color: #229DF9;
+        clip-path: polygon(99% 2%, 97% 50%, 95% 75%, 93% 92%, 91% 98%, 89% 100%, 0% 100%, 2% 54%, 89% 54%, 93% 46%, 95% 39%);
+        grid-column: 3;
+}
+
+#starter--three{
+    margin: 20px 0 25px;
+}
+
+#dish--three{
+    margin: 20px 0 25px;
+}
+
+#dessert--three{
+    margin: 20px 0 70px;
 }

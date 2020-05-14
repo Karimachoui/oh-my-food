@@ -14,11 +14,7 @@
     padding: 5%;
 }
 
-/*----- HEADER -----*/
-
-.menu__heading{
-    margin: auto;
-}
+/*------ TRIO ------*/
 
 .menu__trio{
     display: flex;
@@ -27,10 +23,10 @@
     width: 100%;
     display: grid;
     text-align: center;
-    margin-bottom: 15px;
 }
 
 .trio__title{
+    margin: auto;
     font-size: 20px;
     grid-column: 2;
     background: linear-gradient(to top, #332c2a 0%, #332c2a 10%, transparent 10.01%) no-repeat left bottom / 0 100%;

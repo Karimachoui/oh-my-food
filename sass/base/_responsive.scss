@@ -200,9 +200,6 @@
     #menu--one .meal{font-size: 14px;}
 
     #menu--one .price{font-size: 16px;}
-
-    #menu--one .menu__starter{margin-bottom: 30px;}
-    #menu--one .menu__dish{margin-bottom: 22px;}
     
 /*---------------------*/
 /*------ MENU 2 ------*/
@@ -243,8 +240,8 @@
         font-size: 15px;
     }
 
-    #menu--two .menu__starter{margin-bottom: -20px;}
-    #menu--two .menu__dish{margin-bottom: -20px;}
+    #menu--two .menu__starter{margin-bottom: -17px;}
+    #menu--two .menu__dish{margin-bottom: -18px;}
     #menu--two .menu__dessert{margin-bottom: 30px;}
 
 /*---------------------*/
@@ -253,10 +250,9 @@
 
 /*--- MENU 3 --- HEADER ---*/
 
-    #menu--three .heading--three .heading__title{
+    #menu--three #heading--three .heading__title{
         font-size: 50px;
         font-weight: 800;
-        margin: 85px auto 45px;
     }
 /*--- MENU 3 --- TRIO ---*/   
 
@@ -274,23 +270,21 @@
 
 /*--- MENU 3 --- PLATS ---*/
 
-    #menu--three .line{
-        width: 69%;
-        margin-bottom: 4px;
+    #menu--three
+        .line{
+            width: 69%;
+            margin-bottom: 4px;
     }
 
-    #menu--three .meal--three{
-        font-size: 14px;
+    #menu--three
+        #meal--three{
+            font-size: 14px;
     }
 
-    .price--three{
+    #price--three{
         font-size: 18px;
         font-weight: normal;
     }
-    
-    #menu--three .starter--three{margin-bottom: 10px;}
-    #menu--three .dish--three{margin-bottom: 10px;}
-    #menu--three .dessert--three{margin-bottom: 70px;}
 
 /*---------------------*/
 /*------ MENU 4 ------*/
@@ -298,10 +292,9 @@
 
 /*--- MENU 4 --- HEADER ---*/
 
-    #menu--four .heading--four .heading__title{
-        font-size: 55px;
-        margin: 65px auto 55px;
-    }
+    #menu--four
+        #heading--four
+            .heading__title{font-size: 58px;}
 
 /*--- MENU 4 --- TRIO ---*/
 
@@ -320,26 +313,19 @@
 
 /*--- MENU 4 --- PLATS ---*/
 
-    #menu--four .line{
-        width: 74%;
-        margin-bottom: 4px;
+    #menu--four
+        .line{
+            width: 74%;
+            margin-bottom: 4px;
     }
 
-    #menu--four .meal{
-        font-size: 14px;
-    }
+    #menu--four
+        .meal{font-size: 14px;}
 
-    #menu--four .price{
-        font-size: 18px;
-        font-weight: normal;
-    }
-
-    .starter--four, .dish--four{
-        margin-bottom: 14px;
-    }
-
-    .dessert--four{
-        margin-bottom: 75px;
+    #menu--four
+        #price--four{
+            font-size: 18px;
+            font-weight: normal;
     }
 
 }    
