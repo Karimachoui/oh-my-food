@@ -1,9 +1,11 @@
+
+
 /*------ GENERAL ------*/
 
 #menu--three{
     background-color: #edefef;
-    font-family: 'Kalam', sans-serif;
-    padding-bottom: 10%;
+    padding-bottom: 10%;  
+    font-family:"Segoe Print", cursive;
 }
 
 /*------ HEADER ------*/
@@ -22,7 +24,7 @@
 
 /*------ TRIO ------*/
 
-#menu--three .menu__trio{grid-template-columns: (20% 60% 20%);}
+#menu--three .menu__trio{grid-template-columns: (16% 68% 16%);}
 
 .menu__trio .trio__title{font-size: 20px;}
 
@@ -87,7 +89,7 @@
 }
 
 #starter--three{
-    margin: 20px 0 25px;
+    margin: 20px 0 25px; 
 }
 
 #dish--three{
@@ -95,5 +97,5 @@
 }
 
 #dessert--three{
-    margin: 20px 0 70px;
+    margin: 20px 0 80px;
 }

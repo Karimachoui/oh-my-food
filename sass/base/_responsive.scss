@@ -54,18 +54,12 @@
             }
     }
 
-    .card--one .card__link{
-        padding-top: 25px;
-    }
+    .card--one .card__link{padding-top: 40px;}
 
     .card--one .card__image{
         width: 40px;
         height: 40px;
     }    
-
-    .card--one .card__link .card__subtitle{
-        width: 115px;
-    }
 
 /*--- ACCUEIL --- CARTE 2 ---*/    
 
@@ -77,10 +71,9 @@
         }
     }
 
-    .card--two .card__link .card__subtitle{
-        width: 110px;
-        margin-top: -10px;
-    }
+    .card--two .card__link{padding-top: 25px;}
+
+    .card--two .card__link .card__subtitle{margin-top: -5px;}
 
 /*--- ACCUEIL --- CARTE 3 ---*/    
 
@@ -92,10 +85,7 @@
         }
     }
 
-    .card--three .card__subtitle{
-        font-size: 35px;
-        margin-top: inherit;
-    }
+    .card--three .card__subtitle{margin-top: inherit;}
 
 /*--- ACCUEIL --- CARTE 4 ---*/    
 
@@ -105,10 +95,6 @@
         .card__title{
             font-size: 25px;
         }
-    }
-
-    .card--four .card__subtitle{
-        font-size: 35px;
     }
 
 /*--- ACCUEIL --- BOUTON ---*/
@@ -181,12 +167,12 @@
 /*--- MENU 1 --- TRIO ---*/
 
     #menu--one #trio--one{
-        grid-template-columns: (33% 34% 33%);
+        grid-template-columns: (31% 38% 31%);
         width: 77%;
         margin-bottom: -6px;
     }
 
-    #menu--one .title--one{font-size: 20px;} 
+    #menu--one #trio--one .trio__title{font-size: 18px;}
 
 /*--- MENU 1 --- PLATS ---*/
 
@@ -197,9 +183,9 @@
 
     #menu--one .menu__dessert .line{margin-bottom: 10px;}
 
-    #menu--one .meal{font-size: 14px;}
+    #menu--one .meal{font-size: 12px;}
 
-    #menu--one .price{font-size: 16px;}
+    #menu--one .price{font-size: 14px;}
     
 /*---------------------*/
 /*------ MENU 2 ------*/
@@ -263,8 +249,8 @@
     }
 
     #menu--three .menu__trio .trio__title{
-        font-size: 17px;
-        font-weight: normal;
+        font-size: 14px;
+        font-weight: bold;
     }
 
 
@@ -272,18 +258,20 @@
 
     #menu--three
         .line{
-            width: 69%;
+            width: 71%;
             margin-bottom: 4px;
+            font-weight: bold;
     }
 
     #menu--three
         #meal--three{
-            font-size: 14px;
+            font-size: 12px;
     }
 
     #price--three{
-        font-size: 18px;
-        font-weight: normal;
+        font-size: 16px;
+        position: relative;
+        top: -6px;
     }
 
 /*---------------------*/
@@ -305,8 +293,8 @@
     }
 
     #menu--four .menu__trio .trio__title{
-        font-size: 16px;
-        font-weight: normal;
+        font-size: 14px;
+        font-weight: bold;
     }
 
     #menu--four .trio__stroke__four--L, #menu--four .trio__stroke__four--R{height: 18%;}
@@ -315,17 +303,20 @@
 
     #menu--four
         .line{
-            width: 74%;
+            display: flex;
+            font-weight: bold;
+            width: 77%;
             margin-bottom: 4px;
     }
 
     #menu--four
-        .meal{font-size: 14px;}
+        .meal{font-size: 12px;}
 
     #menu--four
         #price--four{
-            font-size: 18px;
-            font-weight: normal;
+            font-size: 16px;
+            position: relative;
+            top: -6px;
     }
 
 }    
@@ -349,7 +340,7 @@
     }
 
     .menu{
-        max-width: 650px;
+        max-width: 615px;
         margin: 100px auto 150px;
     }
 

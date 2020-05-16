@@ -16,6 +16,8 @@
     }    
 }
 
+
+
 .card--one{
     background-color: #fadfda;
     .card__title{
@@ -24,6 +26,14 @@
         font-weight: normal;
         font-size: 25px;
     }   
+}
+
+.card--one .card__subtitle{
+    font-family: 'Segoe Print', cursive;
+    color: #3D1319;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -15px;
 }
 
 .card--two{
@@ -35,7 +45,14 @@
         background: linear-gradient(to right, #ca7424, #684eb8);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;}
-}   
+}
+
+.card--two .card__subtitle{
+    color: #ca7424;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -10px;
+}
 
 .card--three{
     background-color: #f9f9f9;
@@ -49,8 +66,8 @@
 }
 
 .card--three .card__subtitle{
-    font-family: 'Kalam', cursive;
-    font-size: 40px;
+    font-family: 'Segoe Print', cursive;
+    font-size: 30px;
     color: rgb(24, 138, 245);
     margin-top: -15px;
 }
@@ -69,8 +86,8 @@
 }
 
 .card--four .card__subtitle{
-    font-family: 'Kalam', cursive;
-    font-size: 40px;
+    font-family: 'Segoe Print', cursive;
+    font-size: 30px;
     color: rgba(82, 173, 97, 0.74);
     margin-top: -15px;
 }
