@@ -162,6 +162,7 @@
 }
 
 .card--two .card__subtitle {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #ca7424;
   font-size: 35px;
   font-weight: bold;
@@ -283,8 +284,8 @@
   /*--- FOOTER --- GENERAL ---*/
   body .foo {
     height: 68px;
-    -ms-grid-columns: 31% 40% 29%;
-        grid-template-columns: 31% 40% 29%;
+    -ms-grid-columns: 32% 36% 32%;
+        grid-template-columns: 32% 36% 32%;
   }
   body .foo .foo__link--left, body .foo .foo__link--right {
     font-size: 24px;
