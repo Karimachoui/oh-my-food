@@ -7,32 +7,32 @@
 
 /*---ACCUEIL---BOUTON---*/
 #dot--one {
-  -webkit-animation-delay: -300ms;
-          animation-delay: -300ms;
+  -webkit-animation-delay: -500ms;
+          animation-delay: -500ms;
 }
 
 #dot--two {
-  -webkit-animation-delay: -150ms;
-          animation-delay: -150ms;
+  -webkit-animation-delay: -250ms;
+          animation-delay: -250ms;
 }
 
 @-webkit-keyframes loading-dots {
-  0%, 80%, 100% {
+  0%, 100% {
     -webkit-transform: scale(0);
             transform: scale(0);
   }
-  40% {
+  50% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
 }
 
 @keyframes loading-dots {
-  0%, 80%, 100% {
+  0%, 100% {
     -webkit-transform: scale(0);
             transform: scale(0);
   }
-  40% {
+  50% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
@@ -387,7 +387,7 @@
   #push
 .loading {
     margin-left: -15px;
-    margin-top: 22px;
+    margin-top: 32px;
   }
   /*--- MENUS --- GENERAL ---*/
   .nom__restaurant {
@@ -648,8 +648,8 @@
 }
 
 .loading > div {
-  width: 9px;
-  height: 9px;
+  width: 7px;
+  height: 7px;
   border-radius: 100%;
   background-color: #fcc42d;
   scale: 1;
