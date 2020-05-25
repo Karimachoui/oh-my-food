@@ -725,7 +725,7 @@ main {
   -ms-grid-columns: 40% 25% 35%;
       grid-template-columns: 40% 25% 35%;
   width: 100%;
-  background-color: #579C87;
+  background-color: #579c87;
   position: fixed;
   bottom: 0;
   height: 40px;
@@ -1147,11 +1147,11 @@ main {
 
 /*------ PLATS ------*/
 #starter--four {
-  margin: 22px 0 28px;
+  margin: 22px 0 25px;
 }
 
 #dish--four {
-  margin: 22px 0 23px;
+  margin: 22px 0 25px;
 }
 
 #dessert--four {

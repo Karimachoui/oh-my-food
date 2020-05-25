@@ -15,7 +15,7 @@
     .heading__title{
         font-family: 'Croissant One', cursive;
         font-weight: normal;
-        font-size: 25px;
+        font-size: $m-size + 5px;
         background: linear-gradient(to right, #C77412, #9E64D5);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -32,7 +32,7 @@
 #menu--two .trio__title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: $m-size - 3px;
     margin: auto;
 }
 
@@ -115,4 +115,4 @@
     color:#6E4CCC;
 }
 
-#menu--two .meal{font-size: 16px;}
+#menu--two .meal{font-size: $m-size + 6px;}

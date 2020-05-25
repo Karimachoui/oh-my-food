@@ -1,5 +1,9 @@
 @charset 'utf-8';
 
+@import './utils/fonts';
+@import './utils/listes';
+@import './utils/variables';
+
 @import './base/animations';
 @import './base/cards';
 @import './base/menus';
@@ -19,8 +23,6 @@
 @import './pages/menu4';
 @import './pages/mentions-legales';
 
-@import './utils/fonts';
-@import './utils/listes';
-@import './utils/variables';
+
 
 

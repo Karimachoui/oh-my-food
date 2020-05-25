@@ -1,13 +1,13 @@
 .header__heading{
     display: flex;
-    background-color: #579c87;
+    background-color: $primary-color;
     height: 100px;
     border-bottom: solid 1px #a1c181;
     .header__link{
         margin: auto;
         .header__logo{
-            color: #fcc42d;
-            margin-top: 15px;
+            color: $secondary-color;
+            margin-top: $s-size + 5px;
             font-family: 'Monserrat', sans-serif;
             text-align: center;
         }

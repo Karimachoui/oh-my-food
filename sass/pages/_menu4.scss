@@ -13,7 +13,7 @@
     .heading__title{
         font-family: 'Kaushan Script', sans-serif;
         font-weight: normal;
-        font-size: 40px;
+        font-size: $xl-size;
         background: linear-gradient(to right, rgb(58, 146, 7), rgb(190, 255, 127) 80% );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -46,8 +46,8 @@
 
 /*------ PLATS ------*/
 
-#starter--four{margin: 22px 0 28px;}
+#starter--four{margin: $margin-04;}
 
-#dish--four{margin: 22px 0 23px;}
+#dish--four{margin: $margin-04;}
 
 #dessert--four{margin: 22px 0 70px;}

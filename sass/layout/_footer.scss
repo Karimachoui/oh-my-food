@@ -2,16 +2,16 @@
     display: grid;
     grid-template-columns: (40% 25% 35%);
     width: 100%;
-    background-color: #579C87;
+    background-color: $primary-color;
     position: fixed;
     bottom: 0;
-    height: 40px;
+    height: $xl-size;
     border-top: solid 1px #a1c181;
     .foo__link--left, .foo__link--right{
-        color: #fcc42d;
+        color: $secondary-color;
         font-family: 'Montserrat', sans-serif;
         margin: auto;
-        font-size: 15px;
+        font-size: $s-size + 5px;
         font-weight: 600;
     }
 }

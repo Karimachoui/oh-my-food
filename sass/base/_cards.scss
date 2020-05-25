@@ -24,14 +24,14 @@
         font-family: 'Devonshire', sans-serif;
         color: #3D1319;
         font-weight: normal;
-        font-size: 25px;
+        font-size: $m-size + 5px;
     }   
 }
 
 .card--one .card__subtitle{
     font-family: 'Segoe Print', cursive;
     color: #3D1319;
-    font-size: 30px;
+    font-size: $l-size;
     font-weight: bold;
     margin-top: -15px;
 }
@@ -40,7 +40,7 @@
     background-color: #FFF5FE;
     .card__title{
         font-family: 'Croissant One', sans-serif;
-        font-size: 20px;
+        font-size: $m-size;
         font-weight: normal;
         background: linear-gradient(to right, #ca7424, #684eb8);
         -webkit-background-clip: text;
@@ -50,7 +50,7 @@
 .card--two .card__subtitle{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ca7424;
-    font-size: 35px;
+    font-size: $l-size + 5px;
     font-weight: bold;
     margin-top: -10px;
 }
@@ -59,7 +59,7 @@
     background-color: #f9f9f9;
     .card__title{
         font-family: 'Dancing Script', sans-serif;
-        font-size: 30px;
+        font-size: $l-size;
         background: linear-gradient(to right, rgb(22, 6, 247), rgb(84, 137, 235) 60% );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;        
@@ -68,7 +68,7 @@
 
 .card--three .card__subtitle{
     font-family: 'Segoe Print', cursive;
-    font-size: 30px;
+    font-size: $l-size;
     color: rgb(24, 138, 245);
     margin-top: -15px;
 }
@@ -81,14 +81,14 @@
         background: linear-gradient(to right, rgb(58, 146, 7), rgb(193, 247, 161) 80% );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 28px;
+        font-size: $l-size - 2px;
         font-weight: 500;
     }
 }
 
 .card--four .card__subtitle{
     font-family: 'Segoe Print', cursive;
-    font-size: 30px;
+    font-size: $l-size;
     color: rgba(82, 173, 97, 0.74);
     margin-top: -15px;
 }

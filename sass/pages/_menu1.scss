@@ -15,7 +15,8 @@
     .heading__title{
         font-family: 'Devonshire', cursive;
         font-weight: normal;
-        font-size: 38px;
+        font-size: $xl
+         - 2px;
     }
 }
 
@@ -43,17 +44,17 @@
         grid-column: 3;
 }
 
-#menu--one .menu__trio .trio__title{font-size: 22px;}
+#menu--one .menu__trio .trio__title{font-size: $m-size + 2;}
 
 /*------ PLATS ------*/
 
-#menu--one .menu__starter{margin: 20px 0 50px;}
+#menu--one .menu__starter{margin: $margin-01;}
 
-#menu--one .menu__dish{margin: 20px 0 50px;}
+#menu--one .menu__dish{margin: $margin-01;}
 
-#menu--one .menu__dessert{margin-top: 20px;}
+#menu--one .menu__dessert{margin-top: $m-size;}
 
-.line{margin-bottom: 20px;}
+.line{margin-bottom: $m-size;}
 
 
 /*------ FOOTER ------*/
@@ -65,8 +66,8 @@
     .foo__title{
         font-family: 'Devonshire', cursive;
         font-weight: normal;
-        font-size: 30px;
-        margin-left: 10px;
+        font-size: $l-size;
+        margin-left: $s-size;
     }
 }
 

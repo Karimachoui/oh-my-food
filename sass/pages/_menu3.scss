@@ -15,7 +15,7 @@
     .heading__title{
         font-family: 'Dancing Script', cursive;
         font-weight: normal;
-        font-size: 40px;
+        font-size: $xl-size;
         background: linear-gradient(to right, #1B4CE3, #5BADF6 60% );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -26,7 +26,7 @@
 
 #menu--three .menu__trio{grid-template-columns: (16% 68% 16%);}
 
-.menu__trio .trio__title{font-size: 20px;}
+.menu__trio .trio__title{font-size: $m-size;}
 
 #menu--three
     .stroke__starter__three--L{
@@ -89,11 +89,11 @@
 }
 
 #starter--three{
-    margin: 20px 0 25px; 
+    margin: $margin-03; 
 }
 
 #dish--three{
-    margin: 20px 0 25px;
+    margin: $margin-03;
 }
 
 #dessert--three{

@@ -11,16 +11,16 @@
     }
 
     .header__logo{
-        font-size: 50px;
+        font-size: $xxl-size;
     }
 
 /*--- FOOTER --- GENERAL ---*/    
 
     body .foo{
-        height: 68px;
+        height: $xxl-size + 18px;
         grid-template-columns: (32% 36% 32%);
         .foo__link--left, .foo__link--right{
-            font-size: 24px;
+            font-size: $m-size + 4px;
         }
     }
 
@@ -50,15 +50,15 @@
         grid-row: 2;
         grid-column: 1;
             .card__title{
-                font-size: 23px;
+                font-size: $m-size + 3px;
             }
     }
 
-    .card--one .card__link{padding-top: 40px;}
+    .card--one .card__link{padding-top: $xl-size;}
 
     .card--one .card__image{
-        width: 40px;
-        height: 40px;
+        width: $xl-size;
+        height: $xl-size;
     }    
 
 /*--- ACCUEIL --- CARTE 2 ---*/    
@@ -67,11 +67,11 @@
         grid-row: 2;
         grid-column: 4;
         .card__title{
-            font-size: 18px;
+            font-size: $m-size - 2px;
         }
     }
 
-    .card--two .card__link{padding-top: 25px;}
+    .card--two .card__link{padding-top: $m-size + 5px;}
 
     .card--two .card__link .card__subtitle{margin-top: -5px;}
 
@@ -81,7 +81,7 @@
         grid-row: 4;
         grid-column: 1;
         .card__title{
-            font-size: 27px;
+            font-size: $m-size + 7px;
         }
     }
 
@@ -93,7 +93,7 @@
         grid-row: 4;
         grid-column: 4;
         .card__title{
-            font-size: 25px;
+            font-size: $m-size + 5px;
         }
     }
 
@@ -105,16 +105,16 @@
             grid-column: 2;
             margin: auto;
             width: 320px;
-            height: 60px;
+            height: $xxl-size + 10px;
             #soon{
-                font-size: 30px;
+                font-size: $l-size;
             }
     }
 
     #push
         .loading{
             margin-left: -15px;
-            margin-top: 32px;
+            margin-top: $l-size + 2px;
         }
 
 /*--- MENUS --- GENERAL ---*/
@@ -122,8 +122,8 @@
     .nom__restaurant{
         text-align: center;
         font-family: sans-serif;
-        font-size: 30px;
-        margin-top: 50px;
+        font-size: $l-size;
+        margin-top: $xxl-size;
         margin-bottom: -60px;
     }
 
@@ -155,8 +155,8 @@
 /*--- MENU 1 --- HEADER ---*/
 
     .heading--one .heading__image{
-        width: 60px;
-        margin-top: 40px;
+        width: $xxl-size + 10px;
+        margin-top: $xl-size;
     }
 
     #menu--one .heading--one .heading__title{
@@ -172,20 +172,20 @@
         margin-bottom: -6px;
     }
 
-    #menu--one #trio--one .trio__title{font-size: 18px;}
+    #menu--one #trio--one .trio__title{font-size: $m-size - 2px;}
 
 /*--- MENU 1 --- PLATS ---*/
 
     #menu--one .line{        
         width: 76%;
-        margin-bottom: 7px;
+        margin-bottom: $xs-size + 2px;
     }
 
-    #menu--one .menu__dessert .line{margin-bottom: 10px;}
+    #menu--one .menu__dessert .line{margin-bottom: $s-size;}
 
-    #menu--one .meal{font-size: 12px;}
+    #menu--one .meal{font-size: $s-size + 2px;}
 
-    #menu--one .price{font-size: 14px;}
+    #menu--one .price{font-size: $s-size + 4px;}
     
 /*---------------------*/
 /*------ MENU 2 ------*/
@@ -195,21 +195,21 @@
 
 /*--- MENU 2 --- HEADER ---*/
 
-    #menu--two .heading__title{font-size: 30px;}
+    #menu--two .heading__title{font-size: $l-size;}
 
 /*--- MENU 2 --- TRIO ---*/
 
     #menu--two #trio--two{
         width: 92%;
         grid-template-columns: (30% 40% 30%);
-        margin-bottom: 30px;
+        margin-bottom: $l-size;
     }
 
-    .menu__trio #title--two{font-size: 15px;}
+    .menu__trio #title--two{font-size: $small-size + $xs-size;}
 
-    #menu--two .menu__trio .trio__starter__stroke--L, #menu--two .menu__trio .trio__starter__stroke--R{height: 10px;}
-    #menu--two .menu__trio .trio__dish__stroke--L, #menu--two .menu__trio .trio__dish__stroke--R{height: 10px;}
-    #menu--two .menu__trio .trio__dessert__stroke--L, #menu--two .menu__trio .trio__dessert__stroke--R{height: 10px;}
+    #menu--two .menu__trio .trio__starter__stroke--L, #menu--two .menu__trio .trio__starter__stroke--R{height: $s-size;}
+    #menu--two .menu__trio .trio__dish__stroke--L, #menu--two .menu__trio .trio__dish__stroke--R{height: $s-size;}
+    #menu--two .menu__trio .trio__dessert__stroke--L, #menu--two .menu__trio .trio__dessert__stroke--R{height: $s-size;}
 
 /*--- MENU 2 --- PLATS ---*/
 
@@ -218,17 +218,17 @@
     }
 
     #menu--two .line .meal{
-        font-size: 14px;
+        font-size: $s-size + 4px;
     }
 
     .price--two{
         font-weight: normal;
-        font-size: 15px;
+        font-size: $s-size + $xs-size;
     }
 
     #menu--two .menu__starter{margin-bottom: -17px;}
     #menu--two .menu__dish{margin-bottom: -18px;}
-    #menu--two .menu__dessert{margin-bottom: 30px;}
+    #menu--two .menu__dessert{margin-bottom: $l-size;}
 
 /*---------------------*/
 /*------ MENU 3 ------*/
@@ -237,7 +237,7 @@
 /*--- MENU 3 --- HEADER ---*/
 
     #menu--three #heading--three .heading__title{
-        font-size: 50px;
+        font-size: $xxl-size;
         font-weight: 800;
     }
 /*--- MENU 3 --- TRIO ---*/   
@@ -245,11 +245,11 @@
     #menu--three #trio--three{
         width: 90%;
         grid-template-columns: (33% 34% 33%);
-        margin-bottom: 5px;
+        margin-bottom: $xs-size;
     }
 
     #menu--three .menu__trio .trio__title{
-        font-size: 14px;
+        font-size: $s-size + 4px;
         font-weight: bold;
     }
 
@@ -259,17 +259,17 @@
     #menu--three
         .line{
             width: 71%;
-            margin-bottom: 4px;
+            margin-bottom: $xs-size - 1px;
             font-weight: bold;
     }
 
     #menu--three
         #meal--three{
-            font-size: 12px;
+            font-size: $s-size + 2px;
     }
 
     #price--three{
-        font-size: 16px;
+        font-size: $s-size + $xs-size + 1px;
         position: relative;
         top: -6px;
     }
@@ -282,18 +282,18 @@
 
     #menu--four
         #heading--four
-            .heading__title{font-size: 58px;}
+            .heading__title{font-size: $xxl-size + 8px;}
 
 /*--- MENU 4 --- TRIO ---*/
 
     #menu--four #trio--four{
         width: 92%;
         grid-template-columns: (36% 28% 36%);
-        margin-bottom: 5px;
+        margin-bottom: $xs-size;
     }
 
     #menu--four .menu__trio .trio__title{
-        font-size: 14px;
+        font-size: $s-size + 4px;
         font-weight: bold;
     }
 
@@ -306,15 +306,15 @@
             display: flex;
             font-weight: bold;
             width: 77%;
-            margin-bottom: 4px;
+            margin-bottom: $xs-size - 1px;
     }
 
     #menu--four
-        .meal{font-size: 12px;}
+        .meal{font-size: $s-size + 2px;}
 
     #menu--four
         #price--four{
-            font-size: 16px;
+            font-size: $s-size + $xs-size + 1px;
             position: relative;
             top: -6px;
     }
@@ -336,7 +336,7 @@
 /*---MENUS---GENERAL---*/
 
     .nom__restaurant{
-        font-size: 35px;
+        font-size: $l-size + 5px;
     }
 
     .menu{
