@@ -642,7 +642,7 @@
       -ms-flex-direction: row;
           flex-direction: row;
   margin: auto;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   -ms-grid-column: 2;
   grid-column: 2;
 }
@@ -670,7 +670,7 @@
 
 .foo__image {
   width: 35px;
-  height: 35px;
+  height: 45px;
 }
 
 body {
@@ -972,7 +972,7 @@ main {
 }
 
 #menu--two .meal {
-  font-size: 16px;
+  font-size: 26px;
 }
 
 /*------ GENERAL ------*/
